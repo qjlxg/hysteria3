@@ -23,6 +23,9 @@ jobs:
         ssh-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         persist-credentials: true
 
+    - name: 设置时区
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
