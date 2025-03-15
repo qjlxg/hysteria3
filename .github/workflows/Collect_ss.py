@@ -1,0 +1,52 @@
+
+name: Collect_ss
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'collect_ss.py'
+  schedule:
+    - cron: '30 0/3 * * *'  # 每天UTC时间00:00自动运行
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 关键权限设置
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        # 使用SSH方式克隆仓库
+        ssh-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        persist-credentials: true
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: pip install requests
+
+    - name: Run collection script
+      run: python collect_ss.py
+
+    - name: Commit and push changes
+      
+      run: |
+        # 配置git身份
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        
+        # 更新远程仓库URL
+       
+        
+        # 提交变更
+        git add valid_content_ss.txt
+        git diff --quiet && git diff --staged --quiet || git commit -m "Auto update collected content"
+        
+       
