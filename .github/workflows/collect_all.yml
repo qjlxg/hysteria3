@@ -34,21 +34,16 @@ jobs:
     - name: Run collection_all script
       run: python collect_all.py
 
-    - name: Commit and push changes
-      env:
-        # 使用自动生成的GITHUB_TOKEN
-        REPO_URL: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}
-      run: |
-        # 配置git身份
+    - name: 提交更改
+      run: |                 
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        
-        # 更新远程仓库URL
-        git remote set-url origin $REPO_URL
-        
-        # 提交变更
+        git pull origin main
         git add valid_content_all.txt
-        git diff --quiet && git diff --staged --quiet || git commit -m "Auto update all collected content"
         
-        # 强制推送变更
-        git push origin main -f
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') "
+        
+    - name: 推送更改
+      uses:  ad-m/github-push-action@master
+      with:
+        branch: main
