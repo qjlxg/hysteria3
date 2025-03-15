@@ -33,7 +33,7 @@ jobs:
       run: pip install requests
 
     - name: Run collection script
-      run: python collect_ss.py
+      run: python collect_ss2.py
 
   
 
