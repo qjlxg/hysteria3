@@ -49,4 +49,8 @@ jobs:
         git add valid_content_ss.txt
         git diff --quiet && git diff --staged --quiet || git commit -m "Auto update collected content"
         
-       
+        - name: 推送更改
+          uses:  ad-m/github-push-action@master
+          with:
+         # github_token: ${{ secrets.TOKEN }}
+         branch: main
