@@ -34,18 +34,17 @@ jobs:
     - name: Run collection script
       run: python collect.py
 
-    - name: Commit and push changes
-      
-      run: |
-        # 配置git身份
+    - name: 提交更改
+      run: |                 
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        
-        # 更新远程仓库URL
-       
-        
-        # 提交变更
+        git pull origin main
         git add valid_content.txt
-        git diff --quiet && git diff --staged --quiet || git commit -m "Auto update collected content"
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') "
         
+    - name: 推送更改
+      uses:  ad-m/github-push-action@master
+      with:
+        branch: main
+     
        
