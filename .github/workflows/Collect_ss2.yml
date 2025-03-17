@@ -1,4 +1,5 @@
 
+
 name: Collect_ss2
 
 on:
@@ -26,8 +27,7 @@ jobs:
         
     - name: 设置时区
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
-
-   
+      
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
@@ -47,6 +47,7 @@ jobs:
         git config --global user.email "actions@github.com"
         git pull origin main
         git add valid_content_ss2.txt
+        
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') "
         
     - name: 推送更改
