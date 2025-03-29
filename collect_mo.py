@@ -21,7 +21,7 @@ def is_valid_url(url):
         return False
 
 # 获取原始URL列表
-sub_all_clash_url = 'https://raw.githubusercontent.com/qjlxg/Mo_freeVPNjd/refs/heads/main/data/subscribes.txt','https://raw.githubusercontent.com/qjlxg/Mo_dns68/refs/heads/main/data/subscribes.txt'
+sub_all_clash_url = 'https://raw.githubusercontent.com/qjlxg/Mo_freeVPNjd/refs/heads/main/data/subscribes.txt''https://raw.githubusercontent.com/qjlxg/Mo_dns68/refs/heads/main/data/subscribes.txt'
 try:
     response = requests.get(sub_all_clash_url, headers=headers, timeout=10)
     response.raise_for_status()
