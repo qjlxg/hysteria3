@@ -1,1 +1,1 @@
-# Forked from maimengmeng：https://github.com/maimengmeng/mysub
+# Forked maimengmeng：https://github.com/maimengmeng/mysub
