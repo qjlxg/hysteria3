@@ -38,15 +38,12 @@ jobs:
     - name: Run collection script
       run: python collect_mo.py
 
-  
-
     - name: 提交更改
       run: |                 
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git pull origin main
         git add valid_content_mo.txt
-        
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') "
         
     - name: 推送更改
