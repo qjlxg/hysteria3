@@ -1,12 +1,12 @@
 
-name: Collect_mo
+name: Collect_url
 
 on:
   workflow_dispatch:
   push:
     branches: [ "main" ]
     paths:
-      - 'collect_mo.py'
+      - 'collect_url.py'
   schedule:
     - cron: '30 0/3 * * *'  # 每天UTC时间00:00自动运行
 
@@ -36,14 +36,14 @@ jobs:
       run: pip install requests
 
     - name: Run collection script
-      run: python collect_mo.py
+      run: python collect_url.py
 
     - name: 提交更改
       run: |                 
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git pull origin main
-        git add valid_mo.txt
+        git add url.txt
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') "
         
     - name: 推送更改
