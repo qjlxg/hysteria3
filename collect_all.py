@@ -20,7 +20,7 @@ def is_valid_url(url):
         return False
 
 # 获取原始URL列表
-sub_all_clash_url = 'https://raw.githubusercontent.com/qjlxg/collectSub/main/sub/sub_all_clash.txt'
+sub_all_clash_url = 'https://raw.githubusercontent.com/qjlxg/collectSub/refs/heads/main/sub/sub_all_sub_store.txt'
 try:
     response = requests.get(sub_all_clash_url, headers=headers, timeout=10)
     response.raise_for_status()
