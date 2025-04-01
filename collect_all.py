@@ -9,7 +9,7 @@ headers = {
 
 # 配置参数
 TIMEOUT = 15      # 单次请求超时时间（秒）
-OUTPUT_FILE = 'valid_content_all.txt'
+OUTPUT_FILE = 'collectSub.txt'
 
 def is_valid_url(url):
     """验证URL格式是否合法"""
