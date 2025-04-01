@@ -43,9 +43,7 @@ with open(OUTPUT_FILE, 'w', encoding='utf-8') as out_file:
         processed_count += 1
         
         try:
-            # 显示智能进度（每10个或最后5个显示）
-            if processed_count % 10 == 0 :
-                print(f"[进度] 已处理 {processed_count} 个 | 成功 {success_count} 个 ")
+           
             
             resp = requests.get(url, headers=headers, timeout=TIMEOUT)
             resp.raise_for_status()
