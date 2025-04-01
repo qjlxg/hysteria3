@@ -1,11 +1,11 @@
-name: Collect_all
+name: collectSub
 
 on:
   workflow_dispatch:
   push:
     branches: [ "main" ]
     paths:
-      - 'collect_all.py'
+      - 'collectSub.py'
   schedule:
     - cron: '0 0/3 * * *'  # 每天UTC时间00:00自动运行
 
@@ -35,14 +35,14 @@ jobs:
       run: pip install requests
 
     - name: Run collection_all script
-      run: python collect_all.py
+      run: python collectSub.py
 
     - name: 提交更改
       run: |                 
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git pull origin main
-        git add valid_content_all.txt
+        git add collectSub.txt
         
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') "
         
