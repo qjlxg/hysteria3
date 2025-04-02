@@ -1,12 +1,12 @@
 
-name: Collect_url
+name: 2022-2024
 
 on:
   workflow_dispatch:
   push:
     branches: [ "main" ]
     paths:
-      - 'collect_url.py'
+      - '2022-2024.py'
   schedule:
     - cron: '30 0/3 * * *'  # 每天UTC时间00:00自动运行
 
@@ -36,14 +36,14 @@ jobs:
       run: pip install requests
 
     - name: Run collection script
-      run: python collect_url.py
+      run: python 2022-2024.py
 
     - name: 提交更改
       run: |                 
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git pull origin main
-        git add url.txt
+        git add 2022-2024.txt
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') "
         
     - name: 推送更改
