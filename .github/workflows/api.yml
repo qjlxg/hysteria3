@@ -1,12 +1,12 @@
 
-name: Collect_ss5
+name: api
 
 on:
   workflow_dispatch:
   push:
     branches: [ "main" ]
     paths:
-      - 'collect_ss5.py'
+      - 'api.py'
   schedule:
     - cron: '30 0/3 * * *'  # 每天UTC时间00:00自动运行
 
@@ -36,7 +36,7 @@ jobs:
       run: pip install requests
 
     - name: Run collection script
-      run: python collect_ss5.py
+      run: python api.py
 
   
 
@@ -45,7 +45,7 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git pull origin main
-        git add valid_content_ss5.txt
+        git add api.txt
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') "
         
     - name: 推送更改
