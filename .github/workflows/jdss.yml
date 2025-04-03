@@ -45,7 +45,11 @@ jobs:
         git pull origin main
         git add jdss.txt
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') "
-        git push --force --quiet "https://${{ secrets.GITHUBUSERNAME }}:${{ secrets.GITHUBTOKEN }}@github.com/${{ secrets.GITHUBUSERNAME }}/${{ secrets.GITHUBUSERNAME }}.github.io.git" master:master
+        
+    - name: Configure Git
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions@github.com"
         
     - name: 推送更改
       uses:  ad-m/github-push-action@master
