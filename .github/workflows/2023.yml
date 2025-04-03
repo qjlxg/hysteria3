@@ -1,6 +1,6 @@
 
 
-name: 2023zs
+name: 2023
 
 on:
   workflow_dispatch:
@@ -37,7 +37,7 @@ jobs:
       run: pip install requests
 
     - name: Run collection script
-      run: python 2023.py
+      run: python ./sub/2023.py
 
     - name: 提交更改
       run: |                 
