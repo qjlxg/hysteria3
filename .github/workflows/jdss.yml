@@ -15,7 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write  # 关键权限设置
-    
+  GIST_PAT: ${{ secrets.GIST_PAT }}
+  GIST_LINK: ${{ secrets.GIST_LINK }}
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -26,7 +27,7 @@ jobs:
         
     - name: 设置时区
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
-      
+                   
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
