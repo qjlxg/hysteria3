@@ -10,7 +10,7 @@ headers = {
 # 配置参数
 MAX_SUCCESS = 50  # 需要获取的有效内容数量
 TIMEOUT = 15      # 单次请求超时时间（秒）
-OUTPUT_FILE = '2022-2024.txt'
+OUTPUT_FILE = '2023.txt'
 
 def is_valid_url(url):
     """验证URL格式是否合法"""
@@ -21,7 +21,7 @@ def is_valid_url(url):
         return False
 
 # 获取原始URL列表
-sub_all_clash_url = 'https://raw.githubusercontent.com/qjlxg/hysteria3/refs/heads/main/2022-2024url.txt'
+sub_all_clash_url = 'https://raw.githubusercontent.com/qjlxg/hysteria3/refs/heads/main/2023.txt'
 try:
     response = requests.get(sub_all_clash_url, headers=headers, timeout=10)
     response.raise_for_status()
