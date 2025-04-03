@@ -22,7 +22,7 @@ def is_valid_url(url):
         return False
 
 # 获取原始URL列表
-sub_all_clash_url = 'https://raw.bgithub.xyz/qjlxg/hysteria3/refs/heads/main/2024.txt'
+sub_all_clash_url = 'https://raw.githubusercontent.com/qjlxg/hysteria3/refs/heads/main/2024.txt'
 try:
     response = requests.get(sub_all_clash_url, headers=headers, timeout=10)
     response.raise_for_status()
