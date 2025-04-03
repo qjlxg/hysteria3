@@ -37,7 +37,7 @@ jobs:
       run: pip install requests
 
     - name: Run collection script
-      run: python ./sub/2023.py
+      run: python 2023.py
 
     - name: 提交更改
       run: |                 
