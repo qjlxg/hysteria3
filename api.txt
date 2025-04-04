@@ -19,7 +19,7 @@ trojan://1473ee11-9b26-4f6d-8c43-08e4dbca450e@170dx.babatspeed.xyz:22628?allowIn
 trojan://1473ee11-9b26-4f6d-8c43-08e4dbca450e@170dx.babatspeed.xyz:22628?allowInsecure=1&peer=www.baidu.com&sni=www.baidu.com#%F0%9F%94%94%20%E8%8A%82%E7%82%B9%E8%B6%85%E6%97%B6%E8%AF%B7%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85
 trojan://1473ee11-9b26-4f6d-8c43-08e4dbca450e@170dx.babatspeed.xyz:22628?allowInsecure=1&peer=www.baidu.com&sni=www.baidu.com#%F0%9F%8C%B8%20%E5%AE%98%E7%BD%91ba.kkdoo.top
 trojan://1473ee11-9b26-4f6d-8c43-08e4dbca450e@170dx.babatspeed.xyz:22628?allowInsecure=1&peer=www.baidu.com&sni=www.baidu.com#%E5%85%AB%E4%BD%B0%E5%AE%98%E7%BD%91%E4%B8%93%E7%94%A8%E8%8A%82%E7%82%B9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NDEwNGEyMC03YmM0LTQxNzMtYWQ0Ni1mNDY5MTQ1ZTQ3ZTQ@gonggao01.love-english-edu.com:35001#%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A15.58%20GB
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NDEwNGEyMC03YmM0LTQxNzMtYWQ0Ni1mNDY5MTQ1ZTQ3ZTQ@gonggao01.love-english-edu.com:35001#%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A14.9%20GB
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NDEwNGEyMC03YmM0LTQxNzMtYWQ0Ni1mNDY5MTQ1ZTQ3ZTQ@gonggao01.love-english-edu.com:35001#%E8%B7%9D%E7%A6%BB%E4%B8%8B%E6%AC%A1%E9%87%8D%E7%BD%AE%E5%89%A9%E4%BD%99%EF%BC%9A14%20%E5%A4%A9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NDEwNGEyMC03YmM0LTQxNzMtYWQ0Ni1mNDY5MTQ1ZTQ3ZTQ@gonggao01.love-english-edu.com:35001#%E5%A5%97%E9%A4%90%E5%88%B0%E6%9C%9F%EF%BC%9A2025-12-18
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NDEwNGEyMC03YmM0LTQxNzMtYWQ0Ni1mNDY5MTQ1ZTQ3ZTQ@gonggao01.love-english-edu.com:35001#HOME%F0%9F%8F%A0%3Ahttps%3A%2F%2F%E5%90%BE%E7%88%B1%E5%A6%9E.com%2F
@@ -288,7 +288,7 @@ trojan://1473ee11-9b26-4f6d-8c43-08e4dbca450e@170dx.babatspeed.xyz:22628?allowIn
 trojan://1473ee11-9b26-4f6d-8c43-08e4dbca450e@170dx.babatspeed.xyz:22628?allowInsecure=1&peer=www.baidu.com&sni=www.baidu.com#%F0%9F%94%94%20%E8%8A%82%E7%82%B9%E8%B6%85%E6%97%B6%E8%AF%B7%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85
 trojan://1473ee11-9b26-4f6d-8c43-08e4dbca450e@170dx.babatspeed.xyz:22628?allowInsecure=1&peer=www.baidu.com&sni=www.baidu.com#%F0%9F%8C%B8%20%E5%AE%98%E7%BD%91ba.kkdoo.top
 trojan://1473ee11-9b26-4f6d-8c43-08e4dbca450e@170dx.babatspeed.xyz:22628?allowInsecure=1&peer=www.baidu.com&sni=www.baidu.com#%E5%85%AB%E4%BD%B0%E5%AE%98%E7%BD%91%E4%B8%93%E7%94%A8%E8%8A%82%E7%82%B9
-ss://YWVzLTI1Ni1nY206MmUwZTExNDItMWRjNC00NDUzLTk3N2UtNWZmZmM5MThlNTFl@hk001.dogsvip.site:16001#205.73%20GB%20%7C%20300%20GB
+ss://YWVzLTI1Ni1nY206MmUwZTExNDItMWRjNC00NDUzLTk3N2UtNWZmZmM5MThlNTFl@hk001.dogsvip.site:16001#205.94%20GB%20%7C%20300%20GB
 ss://YWVzLTI1Ni1nY206MmUwZTExNDItMWRjNC00NDUzLTk3N2UtNWZmZmM5MThlNTFl@hk001.dogsvip.site:16001#Traffic%20Reset%3A%206%20Days%20Left
 ss://YWVzLTI1Ni1nY206MmUwZTExNDItMWRjNC00NDUzLTk3N2UtNWZmZmM5MThlNTFl@hk001.dogsvip.site:16001#Expire%20Date%3A%202026-01-10
 ss://YWVzLTI1Ni1nY206MmUwZTExNDItMWRjNC00NDUzLTk3N2UtNWZmZmM5MThlNTFl@hk001.dogsvip.site:16001#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%E4%B8%A801
@@ -1032,7 +1032,7 @@ trojan://1473ee11-9b26-4f6d-8c43-08e4dbca450e@170dx.babatspeed.xyz:22628?allowIn
 trojan://1473ee11-9b26-4f6d-8c43-08e4dbca450e@170dx.babatspeed.xyz:22628?allowInsecure=1&peer=www.baidu.com&sni=www.baidu.com#%F0%9F%94%94%20%E8%8A%82%E7%82%B9%E8%B6%85%E6%97%B6%E8%AF%B7%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85
 trojan://1473ee11-9b26-4f6d-8c43-08e4dbca450e@170dx.babatspeed.xyz:22628?allowInsecure=1&peer=www.baidu.com&sni=www.baidu.com#%F0%9F%8C%B8%20%E5%AE%98%E7%BD%91ba.kkdoo.top
 trojan://1473ee11-9b26-4f6d-8c43-08e4dbca450e@170dx.babatspeed.xyz:22628?allowInsecure=1&peer=www.baidu.com&sni=www.baidu.com#%E5%85%AB%E4%BD%B0%E5%AE%98%E7%BD%91%E4%B8%93%E7%94%A8%E8%8A%82%E7%82%B9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMzAxZmM5ZS0zMDg4LTQxYmEtOTdiYi0zNGM3MWIwNzFhN2Y@office-82084dfcd9.f9umiigcmlawo6o-hk.qytnode.com:39001#%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A326.9%20GB
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMzAxZmM5ZS0zMDg4LTQxYmEtOTdiYi0zNGM3MWIwNzFhN2Y@office-82084dfcd9.f9umiigcmlawo6o-hk.qytnode.com:39001#%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A322.58%20GB
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMzAxZmM5ZS0zMDg4LTQxYmEtOTdiYi0zNGM3MWIwNzFhN2Y@office-82084dfcd9.f9umiigcmlawo6o-hk.qytnode.com:39001#%E8%B7%9D%E7%A6%BB%E4%B8%8B%E6%AC%A1%E9%87%8D%E7%BD%AE%E5%89%A9%E4%BD%99%EF%BC%9A13%20%E5%A4%A9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMzAxZmM5ZS0zMDg4LTQxYmEtOTdiYi0zNGM3MWIwNzFhN2Y@office-82084dfcd9.f9umiigcmlawo6o-hk.qytnode.com:39001#%E5%A5%97%E9%A4%90%E5%88%B0%E6%9C%9F%EF%BC%9A2025-06-17
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMzAxZmM5ZS0zMDg4LTQxYmEtOTdiYi0zNGM3MWIwNzFhN2Y@office-82084dfcd9.f9umiigcmlawo6o-hk.qytnode.com:39001#%E9%A6%99%E6%B8%AF-01
