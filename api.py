@@ -22,7 +22,7 @@ def is_valid_url(url):
 # 获取原始URL列表
 sub_all_clash_url = 'https://raw.githubusercontent.com/qjlxg/TV/refs/heads/main/ss5.txt'
 try:
-    response = requests.get(sub_all_clash_url, headers=headers, timeout=10)
+    response = requests.get(sub_all_clash_url, headers=headers, timeout=256)
     response.raise_for_status()
     raw_urls = response.text.splitlines()
     print(f"原始列表包含 {len(raw_urls)} 个URL")
