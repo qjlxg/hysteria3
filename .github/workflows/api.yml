@@ -12,6 +12,8 @@ on:
 env:
   GIST_PAT: ${{ secrets.GIST_PAT }}
   GIST_LINK: ${{ secrets.GIST_LINK }}
+  CUSTOMIZE_LINK: ${{ secrets.CUSTOMIZE_LINK }}
+  ENABLE_SPECIAL_PROTOCOLS: ${{ vars.ENABLE_SPECIAL_PROTOCOLS }}
 jobs:
   collect:
     runs-on: ubuntu-latest
@@ -36,11 +38,28 @@ jobs:
 
     - name: Install dependencies
       run: pip install requests
+    - name: Check
+      run: |
+          if [ -z "$GIST_PAT" ]; then
+              echo "Error: environment 'GIST_PAT' cannot be empty"
+              exit 1
+          fi
+
+          if [ -z "$GIST_LINK" ]; then
+              echo "Error: environment 'GIST_LINK' cannot be empty"
+              exit 1
+          fi
+
+          LINK_PARTS=$(echo "$GIST_LINK" | awk -F'/' 'NF==2 && $1!="" && $2!=""')
+          if [ -z "$LINK_PARTS" ]; then
+              echo "Error: environment 'GIST_LINK' is not valid, should be 'username/gist_id' format"
+              exit 1
+          fi
 
     - name: Run collection script
       run: python api.py
 
-  
+    
 
     - name: 提交更改
       run: |                 
