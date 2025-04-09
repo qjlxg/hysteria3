@@ -8,7 +8,7 @@ headers = {
 }
 
 # 配置参数
-TIMEOUT = 15      # 单次请求超时时间（秒）
+TIMEOUT = 256      # 单次请求超时时间（秒）
 OUTPUT_FILE = 'api.txt'
 
 def is_valid_url(url):
