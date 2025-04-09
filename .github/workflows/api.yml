@@ -9,7 +9,9 @@ on:
       - 'api.py'
   schedule:
     - cron: '30 0/3 * * *'  # 每天UTC时间00:00自动运行
-
+env:
+  GIST_PAT: ${{ secrets.GIST_PAT }}
+  GIST_LINK: ${{ secrets.GIST_LINK }}
 jobs:
   collect:
     runs-on: ubuntu-latest
