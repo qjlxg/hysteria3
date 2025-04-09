@@ -8,6 +8,7 @@ headers = {
 }
 
 # 配置参数
+MAX_SUCCESS = 99999  # 需要获取的有效内容数量
 TIMEOUT = 256      # 单次请求超时时间（秒）
 OUTPUT_FILE = 'api.txt'
 
