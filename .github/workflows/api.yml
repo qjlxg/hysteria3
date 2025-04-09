@@ -65,6 +65,7 @@ jobs:
       run: |                 
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
+        git clone https://gist.github.com/qjlxg/1cdaefa01bc51cdeda3fd5a4d16bb1ab
         git pull origin main
         git add api.txt
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') "
