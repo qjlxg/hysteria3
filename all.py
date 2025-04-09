@@ -21,7 +21,7 @@ def is_valid_url(url):
         return False
 
 # 获取原始URL列表
-sub_all_clash_url = 'https://github.com/qjlxg/hysteria3/raw/refs/heads/main/url'
+sub_all_clash_url = 'https://github.com/qjlxg/sub.vip.sd/raw/refs/heads/main/config_sub_store.txt'
 try:
     response = requests.get(sub_all_clash_url, headers=headers, timeout=10)
     response.raise_for_status()
