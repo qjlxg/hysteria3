@@ -8,7 +8,7 @@ headers = {
 }
 
 # 配置参数
-MAX_SUCCESS = 100  # 需要获取的有效内容数量
+MAX_SUCCESS = 99999  # 需要获取的有效内容数量
 TIMEOUT = 60      # 单次请求超时时间（秒）
 OUTPUT_FILE = 'valid_content.txt'
 
