@@ -8,8 +8,8 @@ headers = {
 }
 
 # 配置参数
-MAX_SUCCESS = 50  # 需要获取的有效内容数量
-TIMEOUT = 15      # 单次请求超时时间（秒）
+MAX_SUCCESS = 10  # 需要获取的有效内容数量
+TIMEOUT = 150      # 单次请求超时时间（秒）
 OUTPUT_FILE = 'valid_content.txt'
 
 def is_valid_url(url):
