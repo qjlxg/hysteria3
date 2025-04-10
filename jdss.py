@@ -8,8 +8,8 @@ headers = {
 }
 
 # 配置参数
-MAX_SUCCESS = 50  # 需要获取的有效内容数量
-TIMEOUT = 15      # 单次请求超时时间（秒）
+MAX_SUCCESS = 99999  # 需要获取的有效内容数量
+TIMEOUT = 256      # 单次请求超时时间（秒）
 OUTPUT_FILE = 'jdss.txt'
 
 def is_valid_url(url):
@@ -23,7 +23,7 @@ def is_valid_url(url):
 # 获取原始URL列表
 sub_all_clash_url = 'https://jdss.hilaotie.me/'
 try:
-    response = requests.get(sub_all_clash_url, headers=headers, timeout=10)
+    response = requests.get(sub_all_clash_url, headers=headers, timeout=256)
     response.raise_for_status()
     raw_urls = response.text.splitlines()
     print(f"原始列表包含 {len(raw_urls)} 个URL")
