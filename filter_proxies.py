@@ -25,9 +25,9 @@ def deduplicate_nodes_by_name(nodes):
 
 def main():
     yaml_urls = [
-        'https://raw.githubusercontent.com/zzr2002314/aggregator/main/data/clash.yaml',
+        
         'https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml',
-        'https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml'
+        
     ]
     keyword = '美'
 
