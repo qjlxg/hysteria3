@@ -1,32 +1,48 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1D
-  password: 0ad54aec-a871-45b7-af66-70f34d3ed61d
-  port: 19201
-  server: dd02.b99.buzz
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国三-1B
+  password: 9df5ba16-cf4a-4b60-bb94-c19bc7acf3a3
+  port: 30617
+  server: 003.kjahbg.info
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1V
-  password: 799aada9-219f-4ea0-b4ef-9325b34c87bd
-  port: 20013
-  server: gy.666666222.shop
+  name: 🇺🇸 美国02-1D
+  password: 5bf619b9-a52e-4604-ac64-95857ed9f21a
+  port: 45628
+  server: gy.tangu.win
   type: ss
   udp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国-4837高端7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UWXmGTLIW65nL_HXOCWYBHxDRVi0tIGyqZ2rquRiNEg
-    short-id: 99feb030
-  server: us9.731732.xyz
-  servername: www.usc.edu
-  tls: true
-  type: vless
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国二-1A
+  password: 3938c47d-2a5e-4e71-b76a-6726fdecc5b4
+  port: 30616
+  server: 002.kjahbg.info
+  type: ss
   udp: true
-  uuid: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
+- auth: 3895b25e-dbbc-4c3c-b067-3f3ecf334b9e
+  name: 🇺🇸 美国H01直连HYSTERIA2-1D
+  password: 3895b25e-dbbc-4c3c-b067-3f3ecf334b9e
+  port: 8080
+  server: 2azyunus01.757866.xyz
+  skip-cert-verify: false
+  sni: 2azyunus01.757866.xyz
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 VIP 美国1-1G
+  password: 6ad8c45a-d634-4da6-a526-242f638225ee
+  port: 47061
+  server: us01.jiasudu.buzz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国2-1D
+  password: f2f79fd4-d3d5-4388-b45c-289b7466b47a
+  port: 52516
+  server: hry200.2228333.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国-拉斯维加斯-002-1A
@@ -36,140 +52,270 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 17273348-85ee-417c-b2b0-9ecde4f80ee9
+  uuid: f048a01d-ab02-4ec2-aa51-66d3c0b7fad6
   ws-opts:
     path: /
-- name: 🇺🇸 美国-1B
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1C
+  password: ee809dfb-7f01-4a97-a077-54eb9d55db7d
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- auth: f048a01d-ab02-4ec2-aa51-66d3c0b7fad6
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: f048a01d-ab02-4ec2-aa51-66d3c0b7fad6
+  port: 33061
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- auth: cd6a2a83-07a5-4d83-b461-198751015bf8
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1C
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: cd6a2a83-07a5-4d83-b461-198751015bf8
+  port: 33061
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国东部-1J
+  password: da705211-d44c-444f-83c0-205f245445c6
+  port: 62526
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1J
+  password: 7458fb72-a6ce-4ad3-9ff6-bf876dd7d5ad
+  port: 19201
+  server: dd01.b99.buzz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国5-1A
+  password: 46ae3b4a-ae95-44ba-8412-26ec0ed15161
+  port: 49065
+  server: us95.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1C
+  password: ee809dfb-7f01-4a97-a077-54eb9d55db7d
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1E
+  password: 0549dd3c-e72c-44e1-98da-001123cdb553
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- name: 🇺🇸 美国-1C
+  password: 25178ff7-d49c-4b7b-adb8-3b90303ee6e7
+  port: 658
+  server: 45.83.140.22
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1H
+  password: 3d944b0e-91bd-4149-a0c3-f6da8eb1ea41
+  port: 19201
+  server: dd01.b99.buzz
+  type: ss
+  udp: true
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-4837高端4
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19842
+  server: us8.731732.xyz
+  skip-cert-verify: false
+  sni: us8.731732.xyz
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国3-1A
+  password: 46ae3b4a-ae95-44ba-8412-26ec0ed15161
+  port: 49063
+  server: us93.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国 102-1A
+  password: 6d77f2e2-c600-4005-9962-12b5fb617934
+  port: 16011
+  server: uswest.nexifyspark.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国5-1B
+  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
+  port: 49065
+  server: us95.cctv14.xyz
+  type: ss
+  udp: true
+- name: 🇺🇸 美国-1G
   password: 64acc23b-72c0-4229-9d5b-b47548318add
   port: 658
   server: 45.83.140.22
   skip-cert-verify: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-001-1H
+  network: ws
+  port: 20009
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6312f8e-b58a-4c39-852a-7fc78af2c4f4
+  ws-opts:
+    path: /
+- name: 🇺🇸 美国-1F
+  password: 64acc23b-72c0-4229-9d5b-b47548318add
+  port: 443
+  server: pop.ede9314c-61e5-4c9a-8e41-275a29f5120e.heima360.cc
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-001-1C
+  network: ws
+  port: 20009
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd6a2a83-07a5-4d83-b461-198751015bf8
+  ws-opts:
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1M
-  password: f69b0bf8-4de4-4633-ad0a-c508ead0e9b4
-  port: 20016
-  server: gy.666666222.shop
+  name: 🇺🇸 US 美国2-1F
+  password: 710b220a-9292-4086-8884-fdc6291aae61
+  port: 52516
+  server: hry200.2228333.xyz
   type: ss
   udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
   name: 🇺🇸 美国-4837高端5
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
   port: 19842
   server: us.164165.xyz
   skip-cert-verify: false
   sni: us.164165.xyz
   type: hysteria2
   udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1F
+  password: bc9ed2e8-de95-4b20-9045-8460f17a200c
+  port: 19201
+  server: dd01.b99.buzz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国NO.2-1B
-  port: 45053
-  server: xdd.dashuai.cyou
+  name: 🇭🇰 广港专线-美国04-1D
+  port: 35664
+  server: gzdx.newbee8.me
   tls: false
   type: vmess
   udp: true
-  uuid: 2c87b3d5-4ccb-4226-a6d1-19c254ff8700
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1A
-  password: 0b2b3ec0-a50d-488d-b3ea-eda669878c61
-  port: 49062
-  server: us92.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国东部-1B
-  password: d3ecc1e8-65b3-4e7a-91fe-738949140461
-  port: 62526
-  server: hry01.2228333.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1U
-  password: 18566ffa-ea7d-49df-965e-c7e366f064c2
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国西部-1D
-  password: b6ee36da-95c8-4c28-9936-32fdd7922054
-  port: 12524
-  server: hry01.2228333.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 VIP 美国2-1A
-  password: e034d6aa-823d-4125-97b0-314c569a3f09
-  port: 47062
-  server: us02.jiasudu.buzz
-  type: ss
-  udp: true
-- name: 🇺🇸 美国|NETFLIX
-  password: 8ff30148-9a22-4210-a1d3-a35c38182d89
-  port: 23003
-  server: huojian.arken8379.com
+  uuid: 6d9cc203-48a0-47de-9d44-4732207c4413
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-优化2
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19842
+  server: us.813814.xyz
   skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1J
-  password: 62da4277-9ad1-4574-8a89-0107dd11cb68
-  port: 19201
-  server: dd02.b99.buzz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1C
-  password: ef3baae5-e770-4746-afd8-df817069d6fc
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国3-1C
-  password: 8baa8f51-d099-4866-ae6b-4278a68ac3e3
-  port: 49063
-  server: us93.cctv14.xyz
-  type: ss
-  udp: true
-- auth: e4c00d5f-99d2-439c-9983-5cbf6a4678d5
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1E
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: e4c00d5f-99d2-439c-9983-5cbf6a4678d5
-  port: 30001
-  server: 45.147.201.231
-  skip-cert-verify: true
+  sni: us.813814.xyz
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国东部-1G
-  password: b6ee36da-95c8-4c28-9936-32fdd7922054
-  port: 62525
-  server: hry01.2228333.xyz
+  name: 🇺🇸 US 美国 103-1A
+  password: 6d77f2e2-c600-4005-9962-12b5fb617934
+  port: 16012
+  server: uswest.nexifyspark.com
   type: ss
   udp: true
-- auth: 877f857b-04d4-480c-91d0-ad43c886dbce
-  name: 🇺🇸 美国H01直连HYSTERIA2-1A
-  password: 877f857b-04d4-480c-91d0-ad43c886dbce
+- auth: d93a55ce-0c4f-415a-a1a4-290b187af55b
+  name: 🇺🇸 美国H01直连HYSTERIA2-1B
+  password: d93a55ce-0c4f-415a-a1a4-290b187af55b
   port: 8080
   server: 2azyunus01.757866.xyz
   skip-cert-verify: false
   sni: 2azyunus01.757866.xyz
   type: hysteria2
   udp: true
-- auth: 58bf08d9-ad3c-44f5-862e-9430378e559b
-  name: 🇺🇸 美国-FREE-2-1C
-  obfs: salamander
-  obfs-password: AuYymMopA92M90v5
-  password: 58bf08d9-ad3c-44f5-862e-9430378e559b
-  port: 28744
-  server: q3.28.al
-  skip-cert-verify: false
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国东部-1I
+  password: da705211-d44c-444f-83c0-205f245445c6
+  port: 62525
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1B
+  password: 6c9db795-c81f-49d0-aabd-24fb5a078251
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 VIP 美国2-1A
+  password: 0597a157-2165-430c-8fdc-d6d6b72f8444
+  port: 47062
+  server: us02.jiasudu.buzz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国原生01-1D
+  port: 22257
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6d9cc203-48a0-47de-9d44-4732207c4413
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.1-1B
+  port: 45052
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7bc21ee1-5586-4ec6-896a-9a66ba587988
+- name: 🇺🇸 2号专线 美国US 110-1B
+  password: 635a987a-b1a4-4398-8aa1-f6c354b1c29c
+  port: 33889
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国三-1A
+  password: 3938c47d-2a5e-4e71-b76a-6726fdecc5b4
+  port: 30617
+  server: 003.kjahbg.info
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国4-1H
+  password: f6907bb3-d778-4dfb-bc3c-8ba0e81f689c
+  port: 49064
+  server: us94.cctv14.xyz
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -181,150 +327,14 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: b2b3b6bd-2fcd-41af-a040-50b4a2ae8db4
+  uuid: 8a1ac9c2-f59f-431c-b777-a706b760ec90
   ws-opts:
     headers:
       Host: us01.sh-cloudflare.sbs
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1A
-  password: 07b361fb-d4ca-4d81-9d83-b8ae8439966d
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1W
-  password: 4dd4098a-d380-42d8-a0e9-cd034d4207f2
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1Q
-  password: c54c4b92-065a-4f12-8e34-9d2d880e13ab
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 中转-1E
-  password: d2f57131-d89b-4df6-b64b-69bef4da14a6
-  port: 17941
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1C
-  password: ef3baae5-e770-4746-afd8-df817069d6fc
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1N
-  password: 61334637-3627-4ee2-acd1-16d5c5c75466
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国 101
-  password: ffc7a481-7623-400c-b9fc-d7e9283d2ef4
-  port: 16010
-  server: uswest.nexifyspark.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1H
-  password: 70f0407b-313f-42b9-801e-44b378c124a9
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国 102
-  password: ffc7a481-7623-400c-b9fc-d7e9283d2ef4
-  port: 16011
-  server: uswest.nexifyspark.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1P
-  password: 46ae3b4a-ae95-44ba-8412-26ec0ed15161
-  port: 19201
-  server: dd01.b99.buzz
-  type: ss
-  udp: true
-- auth: 3365f018-aee3-4264-ad71-1b88e585526a
-  name: 🇺🇸 美国-FREE-1-1A
-  obfs: salamander
-  obfs-password: AuYymMopA92M90v5
-  password: 3365f018-aee3-4264-ad71-1b88e585526a
-  port: 28744
-  server: q2.28.al
-  skip-cert-verify: false
-  type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1L
-  password: 684214d5-3c78-484c-9631-d0495a5d9442
-  port: 19201
-  server: dd02.b99.buzz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1M
-  password: f69b0bf8-4de4-4633-ad0a-c508ead0e9b4
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1N
-  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
-  port: 19201
-  server: dd01.b99.buzz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1L
-  password: d427a2ea-7a47-4017-bdab-79e9b1ff168f
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1A
-  password: 07b361fb-d4ca-4d81-9d83-b8ae8439966d
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1J
-  password: 14649481-5683-4757-8cb2-702bd6fc46a5
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国东部-1C
-  password: 2f0a8a8f-7e05-45c6-b040-6b9771b8efb6
-  port: 62525
-  server: hry01.2228333.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 中转-1D
-  password: 0e24e3ac-f031-42c8-904b-751307bc10cb
-  port: 17941
-  server: vip.baima360.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国01-免费-1F
+  name: 🇺🇸 美国01-免费-1M
   network: ws
   port: 8443
   server: us01.sh-cloudflare.sbs
@@ -332,11 +342,344 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 184b85df-893c-413b-a9f6-495fef04d167
+  uuid: ed44b623-bfbf-4f33-978b-1e660b438916
   ws-opts:
     headers:
       Host: us01.sh-cloudflare.sbs
     path: /
+- auth: c0d7c0c5-af51-4b1f-bc98-e78a73d665ab
+  name: 🇺🇸 美国-FREE-2-1B
+  obfs: salamander
+  obfs-password: AuYymMopA92M90v5
+  password: c0d7c0c5-af51-4b1f-bc98-e78a73d665ab
+  port: 28744
+  server: q3.28.al
+  skip-cert-verify: false
+  type: hysteria2
+  udp: true
+- auth: f048a01d-ab02-4ec2-aa51-66d3c0b7fad6
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1A
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: f048a01d-ab02-4ec2-aa51-66d3c0b7fad6
+  port: 30001
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国五-1A
+  password: 3938c47d-2a5e-4e71-b76a-6726fdecc5b4
+  port: 30619
+  server: 005.kjahbg.info
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国二-1B
+  password: 9df5ba16-cf4a-4b60-bb94-c19bc7acf3a3
+  port: 30616
+  server: 002.kjahbg.info
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国 106-1B
+  password: 4ce56945-debc-4df0-9bc0-b228352c446b
+  port: 16014
+  server: useast.nexifyspark.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1E
+  password: bc9ed2e8-de95-4b20-9045-8460f17a200c
+  port: 49061
+  server: us91.cctv14.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-1K
+  network: ws
+  port: 23451
+  server: phx-plus-1ddns.faforex.eu.org
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2d37a7aa-82ac-42bd-9c25-07117987b046
+  ws-opts:
+    headers:
+      Host: phx-plus-1ddns.faforex.eu.org
+    path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1B
+  password: 46ae3b4a-ae95-44ba-8412-26ec0ed15161
+  port: 19201
+  server: dd01.b99.buzz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国5-1C
+  password: bc9ed2e8-de95-4b20-9045-8460f17a200c
+  port: 49065
+  server: us95.cctv14.xyz
+  type: ss
+  udp: true
+- name: 🇺🇸 美国-1B
+  password: 25178ff7-d49c-4b7b-adb8-3b90303ee6e7
+  port: 443
+  server: pop.ede9314c-61e5-4c9a-8e41-275a29f5120e.heima360.cc
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国4-1C
+  password: bc9ed2e8-de95-4b20-9045-8460f17a200c
+  port: 49064
+  server: us94.cctv14.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国原生01-1C
+  port: 22257
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f44d41b9-d4f1-43c6-9e2a-ceebfda5f10c
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-1B
+  port: 22255
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: be24feb3-23f3-45d6-ac37-a4b4746b7b61
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 中转-1C
+  password: 64acc23b-72c0-4229-9d5b-b47548318add
+  port: 17941
+  server: vip.baima360.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国3-1G
+  password: 0a751a30-d788-43eb-b5f8-83f3e9c386b4
+  port: 49063
+  server: us93.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1F
+  password: 2e0c7d4a-0023-404c-9bec-a37be8f57d07
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 广港专线-美国04-1C
+  port: 35664
+  server: gzdx.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f44d41b9-d4f1-43c6-9e2a-ceebfda5f10c
+- auth: 3ffd7787-7252-4d76-ba18-5651b57e07a3
+  name: 🇺🇸 美国H01直连HYSTERIA2-1A
+  password: 3ffd7787-7252-4d76-ba18-5651b57e07a3
+  port: 8080
+  server: 2azyunus01.757866.xyz
+  skip-cert-verify: false
+  sni: 2azyunus01.757866.xyz
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国3-1C
+  password: bc9ed2e8-de95-4b20-9045-8460f17a200c
+  port: 49063
+  server: us93.cctv14.xyz
+  type: ss
+  udp: true
+- auth: 17273348-85ee-417c-b2b0-9ecde4f80ee9
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1B
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: 17273348-85ee-417c-b2b0-9ecde4f80ee9
+  port: 33061
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- auth: 067d8c84-5d05-4047-82ef-b1c367be03f8
+  name: 🇺🇸 美国H01直连HYSTERIA2-1F
+  password: 067d8c84-5d05-4047-82ef-b1c367be03f8
+  port: 8080
+  server: 2azyunus01.757866.xyz
+  skip-cert-verify: false
+  sni: 2azyunus01.757866.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国1-1B
+  password: a452cdb7-5ffd-4e05-b2bc-41ad444fddbd
+  port: 52515
+  server: hry100.2228333.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-免费-1Q
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ec56d9a0-82df-41b7-a7b7-0f228295c122
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1C
+  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
+  port: 49061
+  server: us91.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国 105-1A
+  password: 6d77f2e2-c600-4005-9962-12b5fb617934
+  port: 16013
+  server: useast.nexifyspark.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-1A
+  network: ws
+  port: 23451
+  server: phx-plus-1ddns.faforex.eu.org
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e1cee471-767e-4e47-befa-56a2cb228a38
+  ws-opts:
+    headers:
+      Host: phx-plus-1ddns.faforex.eu.org
+    path: /
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国四-1A
+  password: 3938c47d-2a5e-4e71-b76a-6726fdecc5b4
+  port: 30618
+  server: 004.kjahbg.info
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国2-1E
+  password: bc9ed2e8-de95-4b20-9045-8460f17a200c
+  port: 49062
+  server: us92.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国东部-1B
+  password: 7895265e-4491-436a-90ff-fe38beed5151
+  port: 62526
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国原生01-1B
+  port: 22257
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1b4bc35f-4e0d-41e8-b026-219858441a4c
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.1-1C
+  port: 45052
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2d1a60d7-e08f-4e55-9000-8ed77e0da257
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国3-1D
+  password: 3d944b0e-91bd-4149-a0c3-f6da8eb1ea41
+  port: 49063
+  server: us93.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国2-1O
+  password: f6907bb3-d778-4dfb-bc3c-8ba0e81f689c
+  port: 49062
+  server: us92.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国5-1G
+  password: 0a751a30-d788-43eb-b5f8-83f3e9c386b4
+  port: 49065
+  server: us95.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1B
+  password: 6c9db795-c81f-49d0-aabd-24fb5a078251
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-免费-1E
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 8d176285-87a8-40be-b3f6-86f14ae074ad
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1L
+  password: b89a75c1-f1cb-4f7d-a8e7-31e383b0a902
+  port: 19201
+  server: dd01.b99.buzz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 VIP 美国2-1E
+  password: 36ad09d0-9ae7-4e2b-a7cf-e3e24555887a
+  port: 47062
+  server: us02.jiasudu.buzz
+  type: ss
+  udp: true
+- name: 🇺🇸 美国-1E
+  password: d1ffbded-7a0e-4d2d-a310-b615d1861bac
+  port: 658
+  server: 45.83.140.22
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国2-1A
+  password: 7895265e-4491-436a-90ff-fe38beed5151
+  port: 52516
+  server: hry200.2228333.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国01-免费-1A
@@ -347,86 +690,67 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 5039e483-7468-4353-9754-edcad95064d4
+  uuid: fea7f17b-24fb-4379-8da8-08d75f34d6dc
   ws-opts:
     headers:
       Host: us01.sh-cloudflare.sbs
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国-拉斯维加斯-001-1D
-  network: ws
-  port: 20009
-  server: 45.147.201.231
+  name: 🇺🇸 美国NO.2-1B
+  port: 45053
+  server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: ccad180c-7a90-4de4-8c23-f4e6d177d91c
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国3-1G
-  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
-  port: 49063
-  server: us93.cctv14.xyz
+  uuid: 7bc21ee1-5586-4ec6-896a-9a66ba587988
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-优化4
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19842
+  server: us6.426624.xyz
+  skip-cert-verify: false
+  sni: us6.426624.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国04-1B
+  password: 1a1b4c32-1ef3-4381-85dd-7822b2dfe9af
+  port: 15728
+  server: gy.tangu.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国西部-1A
+  password: 7895265e-4491-436a-90ff-fe38beed5151
+  port: 12524
+  server: hry01.2228333.xyz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1N
-  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
-  port: 19201
-  server: dd02.b99.buzz
+  name: 🇺🇸 VIP 美国2-1D
+  password: 52092bbb-8e80-4d62-a5d8-da6a0da93ecc
+  port: 47062
+  server: us02.jiasudu.buzz
   type: ss
   udp: true
-- name: 🇺🇸 2号专线 美国US 110
-  password: aebf9160-4e0b-46d1-9fa0-893feef2e236
-  port: 33889
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
+- name: 🇺🇸 美国-1L
+  password: 1577e2e2-e7ac-4b93-83f2-e40bdbeaa3ce
+  port: 443
+  server: pop.ede9314c-61e5-4c9a-8e41-275a29f5120e.heima360.cc
+  skip-cert-verify: false
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1I
-  password: 62da4277-9ad1-4574-8a89-0107dd11cb68
-  port: 49062
-  server: us92.cctv14.xyz
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1G
-  password: 154fdc55-9b2a-495b-83dd-5cf738631d6b
-  port: 20013
-  server: gy.666666222.shop
+  name: 🇺🇸 US 美国 106-1A
+  password: 6d77f2e2-c600-4005-9962-12b5fb617934
+  port: 16014
+  server: useast.nexifyspark.com
   type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国5-1B
-  password: 0ad54aec-a871-45b7-af66-70f34d3ed61d
-  port: 49065
-  server: us95.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1T
-  password: de1bdaff-961f-4360-a017-185880f481a9
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- auth: 104c7e70-0e1f-40fd-9028-7330153cfd22
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1B
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: 104c7e70-0e1f-40fd-9028-7330153cfd22
-  port: 33061
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国01-免费-1D
+  name: 🇺🇸 美国01-免费-1R
   network: ws
   port: 8443
   server: us01.sh-cloudflare.sbs
@@ -434,163 +758,13 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4d230f20-d2b2-4c24-bdab-0074241773ab
+  uuid: af2b0bda-9a88-4609-8e6e-3ae4f8e9be33
   ws-opts:
     headers:
       Host: us01.sh-cloudflare.sbs
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1D
-  password: ddd09ade-b06c-439e-996d-717149ae886c
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1C
-  password: 0ad54aec-a871-45b7-af66-70f34d3ed61d
-  port: 49062
-  server: us92.cctv14.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-拉斯维加斯-002-1E
-  network: ws
-  port: 23068
-  server: 45.147.201.231
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e4c00d5f-99d2-439c-9983-5cbf6a4678d5
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国5-1E
-  password: 62da4277-9ad1-4574-8a89-0107dd11cb68
-  port: 49065
-  server: us95.cctv14.xyz
-  type: ss
-  udp: true
-- auth: f048a01d-ab02-4ec2-aa51-66d3c0b7fad6
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1C
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: f048a01d-ab02-4ec2-aa51-66d3c0b7fad6
-  port: 30001
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1A
-  password: 0b2b3ec0-a50d-488d-b3ea-eda669878c61
-  port: 49061
-  server: us91.cctv14.xyz
-  type: ss
-  udp: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国-4837高端6
-  network: tcp
-  port: 19840
-  reality-opts:
-    public-key: UWXmGTLIW65nL_HXOCWYBHxDRVi0tIGyqZ2rquRiNEg
-    short-id: 99feb030
-  server: us11.731732.xyz
-  servername: www.ucr.edu
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-- name: 🇺🇸 美国-1K
-  password: 0e24e3ac-f031-42c8-904b-751307bc10cb
-  port: 658
-  server: 45.83.140.22
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国5-1C
-  password: 8baa8f51-d099-4866-ae6b-4278a68ac3e3
-  port: 49065
-  server: us95.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国1-1C
-  password: 92b29c1c-c6a3-4420-beb6-7822fe882af4
-  port: 52515
-  server: hry100.2228333.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国2-1C
-  password: 92b29c1c-c6a3-4420-beb6-7822fe882af4
-  port: 52516
-  server: hry200.2228333.xyz
-  type: ss
-  udp: true
-- name: 🇺🇸 美国-1L
-  password: d2f57131-d89b-4df6-b64b-69bef4da14a6
-  port: 443
-  server: pop.ede9314c-61e5-4c9a-8e41-275a29f5120e.heima360.cc
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1M
-  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
-  port: 49061
-  server: us91.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1B
-  password: 0b2b3ec0-a50d-488d-b3ea-eda669878c61
-  port: 19201
-  server: dd02.b99.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国3-1E
-  password: 62da4277-9ad1-4574-8a89-0107dd11cb68
-  port: 49063
-  server: us93.cctv14.xyz
-  type: ss
-  udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-优化3
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19842
-  server: us2.426624.xyz
-  skip-cert-verify: false
-  sni: us2.426624.xyz
-  type: hysteria2
-  udp: true
-- name: 🇺🇸 美国-1J
-  password: 0e24e3ac-f031-42c8-904b-751307bc10cb
-  port: 443
-  server: pop.ede9314c-61e5-4c9a-8e41-275a29f5120e.heima360.cc
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国西部-1C
-  password: 92b29c1c-c6a3-4420-beb6-7822fe882af4
-  port: 12524
-  server: hry01.2228333.xyz
-  type: ss
-  udp: true
-- name: 🇺🇸 美国-1F
-  password: d1ffbded-7a0e-4d2d-a310-b615d1861bac
-  port: 658
-  server: 45.83.140.22
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国-1N
-  password: 8ff30148-9a22-4210-a1d3-a35c38182d89
+- name: 🇺🇸 美国-1P
+  password: f8cfd9aa-66d6-47fb-9525-220c4509025e
   port: 23003
   server: huojian-js.arken8379.com
   skip-cert-verify: true
@@ -598,62 +772,87 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国5-1F
-  password: 684214d5-3c78-484c-9631-d0495a5d9442
-  port: 49065
-  server: us95.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1E
-  password: 8baa8f51-d099-4866-ae6b-4278a68ac3e3
+  name: 🇺🇸 V1 | 美国1-1M
+  password: 0a751a30-d788-43eb-b5f8-83f3e9c386b4
   port: 49061
   server: us91.cctv14.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1L
-  password: d427a2ea-7a47-4017-bdab-79e9b1ff168f
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国 105
-  password: ffc7a481-7623-400c-b9fc-d7e9283d2ef4
-  port: 16013
-  server: useast.nexifyspark.com
-  type: ss
-  udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-高端2
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-4837高端2
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
   port: 19842
-  server: usa2.731732.xyz
+  server: us5.731732.xyz
   skip-cert-verify: false
-  sni: usa2.731732.xyz
+  sni: us5.731732.xyz
   type: hysteria2
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-免费-1N
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bfb80441-3b1a-4df0-9a42-e438b11236a3
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
 - cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国4-1B
-  password: 0ad54aec-a871-45b7-af66-70f34d3ed61d
-  port: 49064
-  server: us94.cctv14.xyz
+  name: 🇺🇸 V1 | 美国2-1K
+  password: b89a75c1-f1cb-4f7d-a8e7-31e383b0a902
+  port: 49062
+  server: us92.cctv14.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-免费-1J
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a77d8d05-ac30-4e85-9dfa-5ca2f36012d6
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-1G
+  port: 22255
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6d9cc203-48a0-47de-9d44-4732207c4413
 - cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1G
-  password: f7192627-9620-48b4-80f8-0fa64ed6fc9b
-  port: 49061
-  server: us91.cctv14.xyz
+  name: 🇺🇸 V1 | 美国2-1M
+  password: 0a751a30-d788-43eb-b5f8-83f3e9c386b4
+  port: 49062
+  server: us92.cctv14.xyz
   type: ss
   udp: true
 - name: 🇺🇸 美国-1D
-  password: 08c3dbbb-3c0b-4271-85d2-a8a8bb535af5
-  port: 658
-  server: 45.83.140.22
-  skip-cert-verify: true
+  password: d1ffbded-7a0e-4d2d-a310-b615d1861bac
+  port: 443
+  server: pop.ede9314c-61e5-4c9a-8e41-275a29f5120e.heima360.cc
+  skip-cert-verify: false
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1B
+  password: 405b961f-9071-4313-bad0-0c7568407282
+  port: 21105
+  server: okanc.node-is.green
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -663,26 +862,85 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 0913a6a0-550e-4621-9fd3-517aca258285
+  uuid: ca43c1a5-786b-49f9-9bbe-a062cecd3818
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-002-1E
+  network: ws
+  port: 23068
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ccad180c-7a90-4de4-8c23-f4e6d177d91c
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 广港专线-美国04-1B
+  port: 35664
+  server: gzdx.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1b4bc35f-4e0d-41e8-b026-219858441a4c
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国 103
-  password: ffc7a481-7623-400c-b9fc-d7e9283d2ef4
-  port: 16012
-  server: uswest.nexifyspark.com
+  name: 🇺🇸 美国04-1C
+  password: 35e4934d-3af8-41b0-ba01-20fc076d4ef3
+  port: 15728
+  server: gy.tangu.win
   type: ss
   udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-优化4
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国4-1B
+  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
+  port: 49064
+  server: us94.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国5-1D
+  password: 3d944b0e-91bd-4149-a0c3-f6da8eb1ea41
+  port: 49065
+  server: us95.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国4-1G
+  password: 0a751a30-d788-43eb-b5f8-83f3e9c386b4
+  port: 49064
+  server: us94.cctv14.xyz
+  type: ss
+  udp: true
+- auth: 104c7e70-0e1f-40fd-9028-7330153cfd22
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: 104c7e70-0e1f-40fd-9028-7330153cfd22
+  port: 33061
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1A
+  password: a1e04828-51a6-48f6-9376-18341f636737
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-3
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
   port: 19842
-  server: us6.426624.xyz
+  server: us6.731732.xyz
   skip-cert-verify: false
-  sni: us6.426624.xyz
+  sni: us6.731732.xyz
   type: hysteria2
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国01-免费-1B
+  name: 🇺🇸 美国01-免费-1H
   network: ws
   port: 8443
   server: us01.sh-cloudflare.sbs
@@ -696,1069 +954,115 @@ proxies:
       Host: us01.sh-cloudflare.sbs
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1B
-  password: 26d06fb7-2458-431f-98c1-3e6ef312ab6b
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国1-1B
-  password: 2f0a8a8f-7e05-45c6-b040-6b9771b8efb6
-  port: 52515
-  server: hry100.2228333.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1J
-  password: 14649481-5683-4757-8cb2-702bd6fc46a5
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国4-1C
-  password: 8baa8f51-d099-4866-ae6b-4278a68ac3e3
-  port: 49064
-  server: us94.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸 美国四
-  password: a5139033-306e-4a2c-87e7-46bc62c99d16
-  port: 30618
-  server: 004.kjahbg.info
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国5-1D
-  password: f7192627-9620-48b4-80f8-0fa64ed6fc9b
-  port: 49065
-  server: us95.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国3-1A
-  password: 0b2b3ec0-a50d-488d-b3ea-eda669878c61
-  port: 49063
-  server: us93.cctv14.xyz
-  type: ss
-  udp: true
-- auth: 56753e45-c449-4cfa-9f70-cf6b9192fc4b
-  name: 🇺🇸 美国-FREE-1-1D
-  obfs: salamander
-  obfs-password: AuYymMopA92M90v5
-  password: 56753e45-c449-4cfa-9f70-cf6b9192fc4b
-  port: 28744
-  server: q2.28.al
-  skip-cert-verify: false
-  type: hysteria2
-  udp: true
-- auth: 104c7e70-0e1f-40fd-9028-7330153cfd22
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1B
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: 104c7e70-0e1f-40fd-9028-7330153cfd22
-  port: 30001
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国01-免费-1E
-  network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 64efad22-ef71-43ec-964b-61ddee3610d5
-  ws-opts:
-    headers:
-      Host: us01.sh-cloudflare.sbs
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1I
-  password: 40484e5a-fc18-4f30-91d6-4c81f8be8e6a
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- auth: f048a01d-ab02-4ec2-aa51-66d3c0b7fad6
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1C
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: f048a01d-ab02-4ec2-aa51-66d3c0b7fad6
-  port: 33061
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国 106
-  password: ffc7a481-7623-400c-b9fc-d7e9283d2ef4
-  port: 16014
-  server: useast.nexifyspark.com
-  type: ss
-  udp: true
-- auth: e4c00d5f-99d2-439c-9983-5cbf6a4678d5
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1E
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: e4c00d5f-99d2-439c-9983-5cbf6a4678d5
-  port: 33061
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国东部-1A
-  password: d3ecc1e8-65b3-4e7a-91fe-738949140461
-  port: 62525
-  server: hry01.2228333.xyz
-  type: ss
-  udp: true
-- auth: c0d7c0c5-af51-4b1f-bc98-e78a73d665ab
-  name: 🇺🇸 美国-FREE-2-1B
-  obfs: salamander
-  obfs-password: AuYymMopA92M90v5
-  password: c0d7c0c5-af51-4b1f-bc98-e78a73d665ab
-  port: 28744
-  server: q3.28.al
-  skip-cert-verify: false
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1E
-  password: ed10ee8b-8f68-4c49-bb2a-9d6479a4c6c7
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1O
-  password: 02e8f96d-186b-45ce-a486-332d32c55835
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国01-免费-1G
-  network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a77d8d05-ac30-4e85-9dfa-5ca2f36012d6
-  ws-opts:
-    headers:
-      Host: us01.sh-cloudflare.sbs
-    path: /
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-优化53端口
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 53
-  server: us3cf.426624.xyz
-  skip-cert-verify: false
-  sni: us3cf.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1O
-  password: 46ae3b4a-ae95-44ba-8412-26ec0ed15161
-  port: 49062
-  server: us92.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1S
-  password: c661e5a1-3813-4a8e-aa3d-c71428f5af0c
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-三网直2
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19842
-  server: us3.719720.xyz
-  skip-cert-verify: false
-  sni: us3.719720.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1O
-  password: 02e8f96d-186b-45ce-a486-332d32c55835
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- auth: 3365f018-aee3-4264-ad71-1b88e585526a
-  name: 🇺🇸 美国-FREE-2-1A
-  obfs: salamander
-  obfs-password: AuYymMopA92M90v5
-  password: 3365f018-aee3-4264-ad71-1b88e585526a
-  port: 28744
-  server: q3.28.al
-  skip-cert-verify: false
-  type: hysteria2
-  udp: true
-- auth: 58bf08d9-ad3c-44f5-862e-9430378e559b
-  name: 🇺🇸 美国-FREE-1-1C
-  obfs: salamander
-  obfs-password: AuYymMopA92M90v5
-  password: 58bf08d9-ad3c-44f5-862e-9430378e559b
-  port: 28744
-  server: q2.28.al
-  skip-cert-verify: false
-  type: hysteria2
-  udp: true
-- auth: 17273348-85ee-417c-b2b0-9ecde4f80ee9
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1A
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: 17273348-85ee-417c-b2b0-9ecde4f80ee9
-  port: 30001
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-1I
-  network: ws
-  port: 23451
-  server: phx-plus-1ddns.faforex.eu.org
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e1cee471-767e-4e47-befa-56a2cb228a38
-  ws-opts:
-    headers:
-      Host: phx-plus-1ddns.faforex.eu.org
-    path: /
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国4-1G
-  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
-  port: 49064
-  server: us94.cctv14.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-1H
-  network: ws
-  port: 23451
-  server: phx-plus-1ddns.faforex.eu.org
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2d37a7aa-82ac-42bd-9c25-07117987b046
-  ws-opts:
-    headers:
-      Host: phx-plus-1ddns.faforex.eu.org
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国2-1D
-  password: b6ee36da-95c8-4c28-9936-32fdd7922054
-  port: 52516
-  server: hry200.2228333.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1K
-  password: 636c8340-b37e-4b74-a8b8-0b4bbdd06e41
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-3
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19842
-  server: us6.731732.xyz
-  skip-cert-verify: false
-  sni: us6.731732.xyz
-  type: hysteria2
-  udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-高端1
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19842
-  server: usa1.731732.xyz
-  skip-cert-verify: false
-  sni: usa1.731732.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国1-1A
-  password: d3ecc1e8-65b3-4e7a-91fe-738949140461
-  port: 52515
-  server: hry100.2228333.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 VIP 美国1-1A
-  password: e034d6aa-823d-4125-97b0-314c569a3f09
-  port: 47061
-  server: us01.jiasudu.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1D
-  password: 0ad54aec-a871-45b7-af66-70f34d3ed61d
-  port: 19201
-  server: dd01.b99.buzz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国原生01
-  port: 22257
-  server: hn3x.newbee8.me
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c09011fe-5514-4c2d-89aa-d015db549af2
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1U
-  password: 18566ffa-ea7d-49df-965e-c7e366f064c2
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1F
-  password: 8baa8f51-d099-4866-ae6b-4278a68ac3e3
-  port: 19201
-  server: dd01.b99.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1K
-  password: 684214d5-3c78-484c-9631-d0495a5d9442
-  port: 49061
-  server: us91.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国东部-1H
-  password: b6ee36da-95c8-4c28-9936-32fdd7922054
-  port: 62526
-  server: hry01.2228333.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1E
-  password: ed10ee8b-8f68-4c49-bb2a-9d6479a4c6c7
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1Q
-  password: c54c4b92-065a-4f12-8e34-9d2d880e13ab
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国西部-1A
-  password: d3ecc1e8-65b3-4e7a-91fe-738949140461
+  name: 🇺🇸 美国西部-1B
+  password: a452cdb7-5ffd-4e05-b2bc-41ad444fddbd
   port: 12524
   server: hry01.2228333.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国2-1A
-  password: d3ecc1e8-65b3-4e7a-91fe-738949140461
-  port: 52516
-  server: hry200.2228333.xyz
-  type: ss
-  udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-4837高端4
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19842
-  server: us8.731732.xyz
-  skip-cert-verify: false
-  sni: us8.731732.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1T
-  password: de1bdaff-961f-4360-a017-185880f481a9
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-4
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19842
-  server: usgo2.731732.xyz
-  skip-cert-verify: false
-  sni: usgo2.731732.xyz
-  type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国4-1F
-  password: 684214d5-3c78-484c-9631-d0495a5d9442
-  port: 49064
-  server: us94.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国4-1H
-  password: 46ae3b4a-ae95-44ba-8412-26ec0ed15161
-  port: 49064
-  server: us94.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1D
-  password: ddd09ade-b06c-439e-996d-717149ae886c
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- auth: 5219f473-b15d-4387-bbf2-bdef82b6a891
-  name: 🇺🇸 美国H01直连HYSTERIA2-1C
-  password: 5219f473-b15d-4387-bbf2-bdef82b6a891
-  port: 8080
-  server: 2azyunus01.757866.xyz
-  skip-cert-verify: false
-  sni: 2azyunus01.757866.xyz
-  type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国4-1D
-  password: f7192627-9620-48b4-80f8-0fa64ed6fc9b
-  port: 49064
-  server: us94.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国3-1D
-  password: f7192627-9620-48b4-80f8-0fa64ed6fc9b
-  port: 49063
-  server: us93.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国3-1F
-  password: 684214d5-3c78-484c-9631-d0495a5d9442
-  port: 49063
-  server: us93.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 中转-1C
-  password: d1ffbded-7a0e-4d2d-a310-b615d1861bac
-  port: 17941
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- auth: 4326fdb2-3b14-4ff9-8b36-a92aad0f308e
-  name: 🇺🇸 美国H01直连HYSTERIA2-1B
-  password: 4326fdb2-3b14-4ff9-8b36-a92aad0f308e
-  port: 8080
-  server: 2azyunus01.757866.xyz
-  skip-cert-verify: false
-  sni: 2azyunus01.757866.xyz
-  type: hysteria2
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国-拉斯维加斯-002-1D
+  name: 🇺🇸 美国01-免费-1F
   network: ws
-  port: 23068
-  server: 45.147.201.231
-  tls: false
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  tls: true
   type: vmess
   udp: true
-  uuid: ccad180c-7a90-4de4-8c23-f4e6d177d91c
+  uuid: 4d230f20-d2b2-4c24-bdab-0074241773ab
   ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.1-1B
-  port: 45052
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2c87b3d5-4ccb-4226-a6d1-19c254ff8700
-- cipher: aes-256-gcm
-  name: 🇺🇸 VIP 美国1-1B
-  password: 0597a157-2165-430c-8fdc-d6d6b72f8444
-  port: 47061
-  server: us01.jiasudu.buzz
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1x
-  password: 889183fa-645c-434b-98c5-c6fff701b388
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1V
-  password: 799aada9-219f-4ea0-b4ef-9325b34c87bd
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1K
-  password: 684214d5-3c78-484c-9631-d0495a5d9442
-  port: 49062
-  server: us92.cctv14.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-拉斯维加斯-001-1E
-  network: ws
-  port: 20009
-  server: 45.147.201.231
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e4c00d5f-99d2-439c-9983-5cbf6a4678d5
-  ws-opts:
-    path: /
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-1
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19842
-  server: us.719720.xyz
-  skip-cert-verify: false
-  sni: us.719720.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国 139
-  password: ffc7a481-7623-400c-b9fc-d7e9283d2ef4
+  name: 🇺🇸 US 美国 139-1A
+  password: 6d77f2e2-c600-4005-9962-12b5fb617934
   port: 16015
   server: useast.nexifyspark.com
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国4-1E
-  password: 62da4277-9ad1-4574-8a89-0107dd11cb68
-  port: 49064
-  server: us94.cctv14.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-拉斯维加斯-001-1B
-  network: ws
-  port: 20009
-  server: 45.147.201.231
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 104c7e70-0e1f-40fd-9028-7330153cfd22
-  ws-opts:
-    path: /
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-4837高端1
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19842
-  server: us4.731732.xyz
-  skip-cert-verify: false
-  sni: us4.731732.xyz
-  type: hysteria2
-  udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-4837高端2
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19842
-  server: us5.731732.xyz
-  skip-cert-verify: false
-  sni: us5.731732.xyz
-  type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1C
-  password: 0ad54aec-a871-45b7-af66-70f34d3ed61d
-  port: 49061
-  server: us91.cctv14.xyz
-  type: ss
-  udp: true
-- auth: c0d7c0c5-af51-4b1f-bc98-e78a73d665ab
-  name: 🇺🇸 美国-FREE-1-1B
-  obfs: salamander
-  obfs-password: AuYymMopA92M90v5
-  password: c0d7c0c5-af51-4b1f-bc98-e78a73d665ab
-  port: 28744
-  server: q2.28.al
-  skip-cert-verify: false
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1x
-  password: 889183fa-645c-434b-98c5-c6fff701b388
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸 美国六
-  password: a5139033-306e-4a2c-87e7-46bc62c99d16
-  port: 30620
-  server: 006.kjahbg.info
+  name: 🇺🇸 US 美国1-1A
+  password: 7895265e-4491-436a-90ff-fe38beed5151
+  port: 52515
+  server: hry100.2228333.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国东部-1E
-  password: 92b29c1c-c6a3-4420-beb6-7822fe882af4
-  port: 62525
-  server: hry01.2228333.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国东部-1D
-  password: 2f0a8a8f-7e05-45c6-b040-6b9771b8efb6
-  port: 62526
-  server: hry01.2228333.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 广港专线-美国04
-  port: 35664
-  server: gzdx.newbee8.me
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c09011fe-5514-4c2d-89aa-d015db549af2
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1L
-  password: 684214d5-3c78-484c-9631-d0495a5d9442
-  port: 19201
-  server: dd01.b99.buzz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国西部-1B
-  password: 2f0a8a8f-7e05-45c6-b040-6b9771b8efb6
-  port: 12524
-  server: hry01.2228333.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 VIP 美国2-1B
-  password: 0597a157-2165-430c-8fdc-d6d6b72f8444
-  port: 47062
-  server: us02.jiasudu.buzz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-拉斯维加斯-002-1B
-  network: ws
-  port: 23068
-  server: 45.147.201.231
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 104c7e70-0e1f-40fd-9028-7330153cfd22
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-1G
-  network: ws
-  port: 23451
-  server: phx-plus-1ddns.faforex.eu.org
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ae5b7c70-dc36-4c95-88b1-364492869872
-  ws-opts:
-    headers:
-      Host: phx-plus-1ddns.faforex.eu.org
-    path: /
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国3-1B
-  password: 0ad54aec-a871-45b7-af66-70f34d3ed61d
-  port: 49063
-  server: us93.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1S
-  password: c661e5a1-3813-4a8e-aa3d-c71428f5af0c
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1B
-  password: 26d06fb7-2458-431f-98c1-3e6ef312ab6b
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国东部-1F
-  password: 92b29c1c-c6a3-4420-beb6-7822fe882af4
-  port: 62526
-  server: hry01.2228333.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1I
-  password: 62da4277-9ad1-4574-8a89-0107dd11cb68
-  port: 49061
-  server: us91.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1B
-  password: 0b2b3ec0-a50d-488d-b3ea-eda669878c61
-  port: 19201
-  server: dd01.b99.buzz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国01-1A
-  port: 22255
-  server: hn3x.newbee8.me
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c09011fe-5514-4c2d-89aa-d015db549af2
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.1-1A
-  port: 45052
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0913a6a0-550e-4621-9fd3-517aca258285
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-拉斯维加斯-001-1C
-  network: ws
-  port: 20009
-  server: 45.147.201.231
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f048a01d-ab02-4ec2-aa51-66d3c0b7fad6
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-德克萨斯州
-  port: 443
-  server: ourfast.asia
-  servername: ourfast.asia
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 8dec2d60-b62d-4701-af50-b1500959556a
-- cipher: aes-128-gcm
-  name: 🇺🇸 美国二
-  password: a5139033-306e-4a2c-87e7-46bc62c99d16
-  port: 30616
-  server: 002.kjahbg.info
-  type: ss
-  udp: true
-- name: 🇺🇸 美国-1E
-  password: d1ffbded-7a0e-4d2d-a310-b615d1861bac
-  port: 443
-  server: pop.ede9314c-61e5-4c9a-8e41-275a29f5120e.heima360.cc
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1J
-  password: 62da4277-9ad1-4574-8a89-0107dd11cb68
-  port: 19201
-  server: dd01.b99.buzz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1I
-  password: 40484e5a-fc18-4f30-91d6-4c81f8be8e6a
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03
-  password: 99841483-80d2-4485-927e-2501bdc1b21b
+  name: 🇺🇸 美国03-1A
+  password: 405b961f-9071-4313-bad0-0c7568407282
   port: 21106
   server: okanc.node-is.green
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1H
-  password: 70f0407b-313f-42b9-801e-44b378c124a9
-  port: 20016
-  server: gy.666666222.shop
+- cipher: aes-256-gcm
+  name: 🇺🇸 VIP 美国2-1B
+  password: 224b88a9-dc41-4922-8a00-ed3f883d4c7f
+  port: 47062
+  server: us02.jiasudu.buzz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国六-1B
+  password: 9df5ba16-cf4a-4b60-bb94-c19bc7acf3a3
+  port: 30620
+  server: 006.kjahbg.info
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国5-1G
-  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
-  port: 49065
-  server: us95.cctv14.xyz
+  name: 🇺🇸 V1 | 美国1-1N
+  password: 0a751a30-d788-43eb-b5f8-83f3e9c386b4
+  port: 19201
+  server: dd01.b99.buzz
   type: ss
   udp: true
-- name: 🇺🇸 美国-1A
-  password: 64acc23b-72c0-4229-9d5b-b47548318add
+- name: 🇺🇸 美国-1N
+  password: c74d5b75-4cb5-41be-9346-96869663bb20
   port: 443
   server: pop.ede9314c-61e5-4c9a-8e41-275a29f5120e.heima360.cc
   skip-cert-verify: false
   type: trojan
   udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国 101-1B
+  password: 4ce56945-debc-4df0-9bc0-b228352c446b
+  port: 16010
+  server: uswest.nexifyspark.com
+  type: ss
+  udp: true
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
   name: 🇺🇸 美国-4837高端3
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
   port: 19842
   server: us10.731732.xyz
   skip-cert-verify: false
   sni: us10.731732.xyz
   type: hysteria2
   udp: true
-- name: 🇺🇸 美国-1C
-  password: 08c3dbbb-3c0b-4271-85d2-a8a8bb535af5
-  port: 443
-  server: pop.ede9314c-61e5-4c9a-8e41-275a29f5120e.heima360.cc
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1P
-  password: 46ae3b4a-ae95-44ba-8412-26ec0ed15161
-  port: 19201
-  server: dd02.b99.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1M
-  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
-  port: 49062
-  server: us92.cctv14.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-拉斯维加斯-002-1C
-  network: ws
-  port: 23068
-  server: 45.147.201.231
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f048a01d-ab02-4ec2-aa51-66d3c0b7fad6
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国5-1H
-  password: 46ae3b4a-ae95-44ba-8412-26ec0ed15161
-  port: 49065
-  server: us95.cctv14.xyz
-  type: ss
-  udp: true
-- auth: 56753e45-c449-4cfa-9f70-cf6b9192fc4b
-  name: 🇺🇸 美国-FREE-2-1D
-  obfs: salamander
-  obfs-password: AuYymMopA92M90v5
-  password: 56753e45-c449-4cfa-9f70-cf6b9192fc4b
-  port: 28744
-  server: q3.28.al
-  skip-cert-verify: false
-  type: hysteria2
-  udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-优化2
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19842
-  server: us.813814.xyz
-  skip-cert-verify: true
-  sni: us.813814.xyz
-  type: hysteria2
-  udp: true
 - cipher: aes-256-gcm
   name: 🇺🇸 V1 | 美国3-1H
-  password: 46ae3b4a-ae95-44ba-8412-26ec0ed15161
+  password: f6907bb3-d778-4dfb-bc3c-8ba0e81f689c
   port: 49063
   server: us93.cctv14.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1B
-  password: 99841483-80d2-4485-927e-2501bdc1b21b
-  port: 21104
-  server: okanc.node-is.green
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国-拉斯维加斯-001-1A
+  name: 🇺🇸 美国01-免费-1O
   network: ws
-  port: 20009
-  server: 45.147.201.231
-  tls: false
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  tls: true
   type: vmess
   udp: true
-  uuid: 17273348-85ee-417c-b2b0-9ecde4f80ee9
+  uuid: 0a48515c-5fca-4acf-a15d-7f7be4b954a2
   ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国1-1D
-  password: b6ee36da-95c8-4c28-9936-32fdd7922054
-  port: 52515
-  server: hry100.2228333.xyz
-  type: ss
-  udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-三网直3
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19842
-  server: usb3.731732.xyz
-  skip-cert-verify: false
-  sni: usb3.731732.xyz
-  type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1E
-  password: 8baa8f51-d099-4866-ae6b-4278a68ac3e3
-  port: 49062
-  server: us92.cctv14.xyz
-  type: ss
-  udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-2
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19843
-  server: us4.426624.xyz
-  skip-cert-verify: false
-  sni: us4.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1W
-  password: 4dd4098a-d380-42d8-a0e9-cd034d4207f2
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1F
-  password: 650cba45-4b4e-4f6c-8c2b-9243dc27e095
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1R
-  password: fdcfd976-f64c-4ae2-a111-94efdaf5ed38
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸 美国三
-  password: a5139033-306e-4a2c-87e7-46bc62c99d16
-  port: 30617
-  server: 003.kjahbg.info
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 中转-1A
-  password: 64acc23b-72c0-4229-9d5b-b47548318add
-  port: 17941
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1H
-  password: f7192627-9620-48b4-80f8-0fa64ed6fc9b
-  port: 19201
-  server: dd02.b99.buzz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1F
-  password: 650cba45-4b4e-4f6c-8c2b-9243dc27e095
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国5-1A
-  password: 0b2b3ec0-a50d-488d-b3ea-eda669878c61
-  port: 49065
-  server: us95.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1P
-  password: 932ab1a1-142a-4584-88db-1fd1929afa5e
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1K
-  password: 636c8340-b37e-4b74-a8b8-0b4bbdd06e41
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-优化1
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19842
-  server: us1.426624.xyz
-  skip-cert-verify: false
-  sni: us1.426624.xyz
-  type: hysteria2
-  udp: true
-- name: 🇺🇸 美国-1M
-  password: d2f57131-d89b-4df6-b64b-69bef4da14a6
-  port: 658
-  server: 45.83.140.22
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- auth: ccad180c-7a90-4de4-8c23-f4e6d177d91c
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1D
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: ccad180c-7a90-4de4-8c23-f4e6d177d91c
-  port: 30001
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- auth: ccad180c-7a90-4de4-8c23-f4e6d177d91c
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1D
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: ccad180c-7a90-4de4-8c23-f4e6d177d91c
-  port: 33061
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- client-fingerprint: edge
+- client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 🇺🇸 美国-4837高端8
   network: tcp
@@ -1771,137 +1075,1489 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1H
-  password: f7192627-9620-48b4-80f8-0fa64ed6fc9b
-  port: 19201
-  server: dd01.b99.buzz
-  type: ss
-  udp: true
+  uuid: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 中转-1B
-  password: 08c3dbbb-3c0b-4271-85d2-a8a8bb535af5
-  port: 17941
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1G
-  password: 154fdc55-9b2a-495b-83dd-5cf738631d6b
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 美国2-1B
-  password: 2f0a8a8f-7e05-45c6-b040-6b9771b8efb6
-  port: 52516
-  server: hry200.2228333.xyz
-  type: ss
-  udp: true
-- auth: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  name: 🇺🇸 美国-三网直1
-  password: 4032ca3a-8f8b-4ba0-9c45-e95d0aaa71ff
-  port: 19842
-  server: us1cf.731732.xyz
-  skip-cert-verify: false
-  sni: us1cf.731732.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1N
-  password: 61334637-3627-4ee2-acd1-16d5c5c75466
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 1号专线 美国US 205
-  password: aebf9160-4e0b-46d1-9fa0-893feef2e236
-  port: 39312
-  server: 120.232.239.186
+  name: 🇺🇸 美国东部-1E
+  password: 127d116e-d56b-4421-a3cb-5cb7dc323321
+  port: 62525
+  server: hry01.2228333.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国原生02
+  name: 🇺🇸 美国-拉斯维加斯-001-1A
+  network: ws
+  port: 20009
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f048a01d-ab02-4ec2-aa51-66d3c0b7fad6
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸 VIP 美国1-1E
+  password: 36ad09d0-9ae7-4e2b-a7cf-e3e24555887a
+  port: 47061
+  server: us01.jiasudu.buzz
+  type: ss
+  udp: true
+- auth: 0f6464b2-efe5-4c92-b355-43fb2230afbd
+  name: 🇺🇸 美国H01直连HYSTERIA2-1G
+  password: 0f6464b2-efe5-4c92-b355-43fb2230afbd
+  port: 8080
+  server: 2azyunus01.757866.xyz
+  skip-cert-verify: false
+  sni: 2azyunus01.757866.xyz
+  type: hysteria2
+  udp: true
+- name: 🇺🇸 美国|NETFLIX
+  password: f8cfd9aa-66d6-47fb-9525-220c4509025e
+  port: 23003
+  server: huojian.arken8379.com
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-免费-1K
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5039e483-7468-4353-9754-edcad95064d4
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国4-1E
+  password: 7458fb72-a6ce-4ad3-9ff6-bf876dd7d5ad
+  port: 49064
+  server: us94.cctv14.xyz
+  type: ss
+  udp: true
+- name: 🇺🇸 美国-1M
+  password: 1577e2e2-e7ac-4b93-83f2-e40bdbeaa3ce
+  port: 658
+  server: 45.83.140.22
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国2-1H
+  password: 3d944b0e-91bd-4149-a0c3-f6da8eb1ea41
+  port: 19201
+  server: dd02.b99.buzz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-1H
+  network: ws
+  port: 23451
+  server: phx-plus-1ddns.faforex.eu.org
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ae5b7c70-dc36-4c95-88b1-364492869872
+  ws-opts:
+    headers:
+      Host: phx-plus-1ddns.faforex.eu.org
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1J
+  password: 5bf619b9-a52e-4604-ac64-95857ed9f21a
+  port: 45532
+  server: gy.tangu.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国1-1C
+  password: 127d116e-d56b-4421-a3cb-5cb7dc323321
+  port: 52515
+  server: hry100.2228333.xyz
+  type: ss
+  udp: true
+- auth: e6312f8e-b58a-4c39-852a-7fc78af2c4f4
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1H
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: e6312f8e-b58a-4c39-852a-7fc78af2c4f4
+  port: 30001
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- auth: fd2f2f75-4d0a-4ec2-a99f-a70c3d99ee5f
+  name: 🇺🇸 美国H01直连HYSTERIA2-1E
+  password: fd2f2f75-4d0a-4ec2-a99f-a70c3d99ee5f
+  port: 8080
+  server: 2azyunus01.757866.xyz
+  skip-cert-verify: false
+  sni: 2azyunus01.757866.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国原生02-1C
   port: 35659
   server: gzdx.newbee8.me
   tls: false
   type: vmess
   udp: true
-  uuid: c09011fe-5514-4c2d-89aa-d015db549af2
+  uuid: f44d41b9-d4f1-43c6-9e2a-ceebfda5f10c
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1R
-  password: fdcfd976-f64c-4ae2-a111-94efdaf5ed38
+  name: 🇺🇸 美国 纽约2-1H
+  password: b0dd2ac1-28f8-4fc8-9183-90c881c11fd2
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国1
+  port: 27821
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1f06cda1-f430-477f-ade3-d19b08d5be66
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国 139-1B
+  password: 4ce56945-debc-4df0-9bc0-b228352c446b
+  port: 16015
+  server: useast.nexifyspark.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国2-1E
+  password: da705211-d44c-444f-83c0-205f245445c6
+  port: 52516
+  server: hry200.2228333.xyz
+  type: ss
+  udp: true
+- name: 🇺🇸 美国-1O
+  password: c74d5b75-4cb5-41be-9346-96869663bb20
+  port: 658
+  server: 45.83.140.22
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-001-1D
+  network: ws
+  port: 20009
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 104c7e70-0e1f-40fd-9028-7330153cfd22
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国1-1F
+  password: 710b220a-9292-4086-8884-fdc6291aae61
+  port: 52515
+  server: hry100.2228333.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国东部-1G
+  password: f2f79fd4-d3d5-4388-b45c-289b7466b47a
+  port: 62525
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 VIP 美国1-1A
+  password: 0597a157-2165-430c-8fdc-d6d6b72f8444
+  port: 47061
+  server: us01.jiasudu.buzz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国原生02-1A
+  port: 35659
+  server: gzdx.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: be24feb3-23f3-45d6-ac37-a4b4746b7b61
+- auth: 3365f018-aee3-4264-ad71-1b88e585526a
+  name: 🇺🇸 美国-FREE-2-1A
+  obfs: salamander
+  obfs-password: AuYymMopA92M90v5
+  password: 3365f018-aee3-4264-ad71-1b88e585526a
+  port: 28744
+  server: q3.28.al
+  skip-cert-verify: false
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1G
+  password: 5b3981c0-de4e-419b-81a3-1d08b0b3a953
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国04-1D
+  password: 5bf619b9-a52e-4604-ac64-95857ed9f21a
+  port: 38722
+  server: gy.tangu.win
+  type: ss
+  udp: true
+- auth: 56753e45-c449-4cfa-9f70-cf6b9192fc4b
+  name: 🇺🇸 美国-FREE-2-1D
+  obfs: salamander
+  obfs-password: AuYymMopA92M90v5
+  password: 56753e45-c449-4cfa-9f70-cf6b9192fc4b
+  port: 28744
+  server: q3.28.al
+  skip-cert-verify: false
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国 101-1A
+  password: 6d77f2e2-c600-4005-9962-12b5fb617934
+  port: 16010
+  server: uswest.nexifyspark.com
+  type: ss
+  udp: true
+- auth: ccad180c-7a90-4de4-8c23-f4e6d177d91c
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1E
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: ccad180c-7a90-4de4-8c23-f4e6d177d91c
+  port: 30001
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 中转-1D
+  password: d2f57131-d89b-4df6-b64b-69bef4da14a6
+  port: 17941
+  server: vip.baima360.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国原生02-1D
+  port: 35659
+  server: gzdx.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6d9cc203-48a0-47de-9d44-4732207c4413
+- auth: b98d75d5-fd8f-4154-99e0-5f3d7e775bfa
+  name: 🇺🇸 美国H01直连HYSTERIA2-1C
+  password: b98d75d5-fd8f-4154-99e0-5f3d7e775bfa
+  port: 8080
+  server: 2azyunus01.757866.xyz
+  skip-cert-verify: false
+  sni: 2azyunus01.757866.xyz
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1P
+  password: f6907bb3-d778-4dfb-bc3c-8ba0e81f689c
+  port: 19201
+  server: dd01.b99.buzz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1G
+  password: 5b3981c0-de4e-419b-81a3-1d08b0b3a953
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国西部-1E
+  password: da705211-d44c-444f-83c0-205f245445c6
+  port: 12524
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.1-1A
+  port: 45052
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ca43c1a5-786b-49f9-9bbe-a062cecd3818
+- cipher: aes-256-gcm
+  name: 🇺🇸 VIP 美国1-1D
+  password: 52092bbb-8e80-4d62-a5d8-da6a0da93ecc
+  port: 47061
+  server: us01.jiasudu.buzz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1D
+  password: 45f25c28-d9b4-4273-9abe-7b12ad024405
   port: 20016
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 🇺🇸 美国一
-  password: a5139033-306e-4a2c-87e7-46bc62c99d16
+  name: 🇺🇸 美国一-1A
+  password: 3938c47d-2a5e-4e71-b76a-6726fdecc5b4
   port: 30615
   server: 001.kjahbg.info
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸 美国五
-  password: a5139033-306e-4a2c-87e7-46bc62c99d16
-  port: 30619
-  server: 005.kjahbg.info
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国2-1L
+  password: b89a75c1-f1cb-4f7d-a8e7-31e383b0a902
+  port: 19201
+  server: dd02.b99.buzz
+  type: ss
+  udp: true
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-优化1
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19842
+  server: us1.426624.xyz
+  skip-cert-verify: false
+  sni: us1.426624.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-免费-1P
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 64f2f6cf-1e85-4e6a-9ed0-4c80354ab381
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-免费-1B
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0c37219d-a1c2-45fe-9329-d113ee0ed10a
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-优化3
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19842
+  server: us2.426624.xyz
+  skip-cert-verify: false
+  sni: us2.426624.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1A
+  password: 80e7a205-d8b3-40af-993b-02d95eebe429
+  port: 45628
+  server: gy.tangu.win
+  type: ss
+  udp: true
+- auth: bc8daf4b-dbb7-4e8c-a234-dd305a7384bb
+  name: 🇺🇸 美国-FREE-1-1E
+  obfs: salamander
+  obfs-password: AuYymMopA92M90v5
+  password: bc8daf4b-dbb7-4e8c-a234-dd305a7384bb
+  port: 28744
+  server: q2.28.al
+  skip-cert-verify: false
+  type: hysteria2
+  udp: true
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-优化53端口
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 53
+  server: us3cf.426624.xyz
+  skip-cert-verify: false
+  sni: us3cf.426624.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国04-1A
+  password: 80e7a205-d8b3-40af-993b-02d95eebe429
+  port: 38722
+  server: gy.tangu.win
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-001-1E
+  network: ws
+  port: 20009
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ccad180c-7a90-4de4-8c23-f4e6d177d91c
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国东部-1F
+  password: 127d116e-d56b-4421-a3cb-5cb7dc323321
+  port: 62526
+  server: hry01.2228333.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02
-  password: 99841483-80d2-4485-927e-2501bdc1b21b
-  port: 21105
-  server: okanc.node-is.green
+  name: 🇺🇸 美国 中转-1B
+  password: d1ffbded-7a0e-4d2d-a310-b615d1861bac
+  port: 17941
+  server: vip.baima360.com
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国2-1G
-  password: f7192627-9620-48b4-80f8-0fa64ed6fc9b
-  port: 49062
-  server: us92.cctv14.xyz
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-三网直2
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19842
+  server: us3.719720.xyz
+  skip-cert-verify: false
+  sni: us3.719720.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 中转-1F
+  password: c74d5b75-4cb5-41be-9346-96869663bb20
+  port: 17941
+  server: vip.baima360.com
   type: ss
   udp: true
 - auth: 17273348-85ee-417c-b2b0-9ecde4f80ee9
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1B
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
   password: 17273348-85ee-417c-b2b0-9ecde4f80ee9
-  port: 33061
+  port: 30001
   server: 45.147.201.231
   skip-cert-verify: true
   type: hysteria2
   udp: true
 - cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国3-1E
+  password: 7458fb72-a6ce-4ad3-9ff6-bf876dd7d5ad
+  port: 49063
+  server: us93.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国东部-1L
+  password: 710b220a-9292-4086-8884-fdc6291aae61
+  port: 62526
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国东部-1D
+  password: a452cdb7-5ffd-4e05-b2bc-41ad444fddbd
+  port: 62526
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国2-1A
+  password: 46ae3b4a-ae95-44ba-8412-26ec0ed15161
+  port: 49062
+  server: us92.cctv14.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-002-1B
+  network: ws
+  port: 23068
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 17273348-85ee-417c-b2b0-9ecde4f80ee9
+  ws-opts:
+    path: /
+- auth: d2e02c4c-b675-4793-83bf-2421f9633638
+  name: 🇺🇸 美国H01直连HYSTERIA2-1H
+  password: d2e02c4c-b675-4793-83bf-2421f9633638
+  port: 8080
+  server: 2azyunus01.757866.xyz
+  skip-cert-verify: false
+  sni: 2azyunus01.757866.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 中转-1E
+  password: 1577e2e2-e7ac-4b93-83f2-e40bdbeaa3ce
+  port: 17941
+  server: vip.baima360.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国2-1G
+  password: 3d944b0e-91bd-4149-a0c3-f6da8eb1ea41
+  port: 49062
+  server: us92.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
   name: 🇺🇸 V1 | 美国4-1A
-  password: 0b2b3ec0-a50d-488d-b3ea-eda669878c61
+  password: 46ae3b4a-ae95-44ba-8412-26ec0ed15161
   port: 49064
   server: us94.cctv14.xyz
   type: ss
   udp: true
+- auth: e6312f8e-b58a-4c39-852a-7fc78af2c4f4
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1H
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: e6312f8e-b58a-4c39-852a-7fc78af2c4f4
+  port: 33061
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- auth: 26a99cb7-d64f-4700-b3c0-48c0d2006ef0
+  name: 🇺🇸 美国-FREE-2-1C
+  obfs: salamander
+  obfs-password: AuYymMopA92M90v5
+  password: 26a99cb7-d64f-4700-b3c0-48c0d2006ef0
+  port: 28744
+  server: q3.28.al
+  skip-cert-verify: false
+  type: hysteria2
+  udp: true
 - cipher: aes-256-gcm
-  name: 🇺🇸 V1 | 美国1-1O
+  name: 🇺🇸 V1 | 美国2-1D
+  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
+  port: 19201
+  server: dd02.b99.buzz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国3
+  port: 27823
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1f06cda1-f430-477f-ade3-d19b08d5be66
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国西部-1F
+  password: 710b220a-9292-4086-8884-fdc6291aae61
+  port: 12524
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国2-1J
+  password: 7458fb72-a6ce-4ad3-9ff6-bf876dd7d5ad
+  port: 19201
+  server: dd02.b99.buzz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国5-1H
+  password: f6907bb3-d778-4dfb-bc3c-8ba0e81f689c
+  port: 49065
+  server: us95.cctv14.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国原生02-1B
+  port: 35659
+  server: gzdx.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1b4bc35f-4e0d-41e8-b026-219858441a4c
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1A
   password: 46ae3b4a-ae95-44ba-8412-26ec0ed15161
   port: 49061
   server: us91.cctv14.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1P
-  password: 932ab1a1-142a-4584-88db-1fd1929afa5e
-  port: 20016
+  name: 🇺🇸 US 美国 102-1B
+  password: 4ce56945-debc-4df0-9bc0-b228352c446b
+  port: 16011
+  server: uswest.nexifyspark.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国原生01-1A
+  port: 22257
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: be24feb3-23f3-45d6-ac37-a4b4746b7b61
+- cipher: aes-256-gcm
+  name: 🇺🇸 VIP 美国1-1B
+  password: 224b88a9-dc41-4922-8a00-ed3f883d4c7f
+  port: 47061
+  server: us01.jiasudu.buzz
+  type: ss
+  udp: true
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-4837高端1
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19842
+  server: us4.731732.xyz
+  skip-cert-verify: false
+  sni: us4.731732.xyz
+  type: hysteria2
+  udp: true
+- auth: 104c7e70-0e1f-40fd-9028-7330153cfd22
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1D
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: 104c7e70-0e1f-40fd-9028-7330153cfd22
+  port: 30001
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国西部-1C
+  password: 127d116e-d56b-4421-a3cb-5cb7dc323321
+  port: 12524
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1F
+  password: 2e0c7d4a-0023-404c-9bec-a37be8f57d07
+  port: 20013
   server: gy.666666222.shop
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-1C
+  port: 22255
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1b4bc35f-4e0d-41e8-b026-219858441a4c
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-1F
+  port: 22255
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f44d41b9-d4f1-43c6-9e2a-ceebfda5f10c
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-免费-1I
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 184b85df-893c-413b-a9f6-495fef04d167
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国五-1B
+  password: 9df5ba16-cf4a-4b60-bb94-c19bc7acf3a3
+  port: 30619
+  server: 005.kjahbg.info
+  type: ss
+  udp: true
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-三网直3
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19842
+  server: usb3.731732.xyz
+  skip-cert-verify: false
+  sni: usb3.731732.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国西部-1D
+  password: f2f79fd4-d3d5-4388-b45c-289b7466b47a
+  port: 12524
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-免费-1L
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b2b3b6bd-2fcd-41af-a040-50b4a2ae8db4
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国2-1C
+  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
+  port: 49062
+  server: us92.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国5-1E
+  password: 7458fb72-a6ce-4ad3-9ff6-bf876dd7d5ad
+  port: 49065
+  server: us95.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国2-1C
+  password: 127d116e-d56b-4421-a3cb-5cb7dc323321
+  port: 52516
+  server: hry200.2228333.xyz
+  type: ss
+  udp: true
+- auth: c0d7c0c5-af51-4b1f-bc98-e78a73d665ab
+  name: 🇺🇸 美国-FREE-1-1B
+  obfs: salamander
+  obfs-password: AuYymMopA92M90v5
+  password: c0d7c0c5-af51-4b1f-bc98-e78a73d665ab
+  port: 28744
+  server: q2.28.al
+  skip-cert-verify: false
+  type: hysteria2
+  udp: true
+- name: 🇺🇸 美国-1I
+  password: d2f57131-d89b-4df6-b64b-69bef4da14a6
+  port: 443
+  server: pop.ede9314c-61e5-4c9a-8e41-275a29f5120e.heima360.cc
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-001-1F
+  network: ws
+  port: 20009
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4c00d5f-99d2-439c-9983-5cbf6a4678d5
+  ws-opts:
+    path: /
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-三网直1
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19842
+  server: us1cf.731732.xyz
+  skip-cert-verify: false
+  sni: us1cf.731732.xyz
+  type: hysteria2
+  udp: true
+- auth: e4c00d5f-99d2-439c-9983-5cbf6a4678d5
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1F
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: e4c00d5f-99d2-439c-9983-5cbf6a4678d5
+  port: 33061
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1G
+  password: 3d944b0e-91bd-4149-a0c3-f6da8eb1ea41
+  port: 49061
+  server: us91.cctv14.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-002-1G
+  network: ws
+  port: 23068
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b3778019-8931-499e-931a-5e964b3b5de3
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国2
+  port: 27822
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1f06cda1-f430-477f-ade3-d19b08d5be66
+- auth: 3365f018-aee3-4264-ad71-1b88e585526a
+  name: 🇺🇸 美国-FREE-1-1A
+  obfs: salamander
+  obfs-password: AuYymMopA92M90v5
+  password: 3365f018-aee3-4264-ad71-1b88e585526a
+  port: 28744
+  server: q2.28.al
+  skip-cert-verify: false
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 VIP 美国2-1G
+  password: 6ad8c45a-d634-4da6-a526-242f638225ee
+  port: 47062
+  server: us02.jiasudu.buzz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1D
+  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
+  port: 19201
+  server: dd01.b99.buzz
+  type: ss
+  udp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国-4837高端7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UWXmGTLIW65nL_HXOCWYBHxDRVi0tIGyqZ2rquRiNEg
+    short-id: 99feb030
+  server: us9.731732.xyz
+  servername: www.usc.edu
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国1-1E
+  password: da705211-d44c-444f-83c0-205f245445c6
+  port: 52515
+  server: hry100.2228333.xyz
+  type: ss
+  udp: true
+- auth: 26a99cb7-d64f-4700-b3c0-48c0d2006ef0
+  name: 🇺🇸 美国-FREE-1-1C
+  obfs: salamander
+  obfs-password: AuYymMopA92M90v5
+  password: 26a99cb7-d64f-4700-b3c0-48c0d2006ef0
+  port: 28744
+  server: q2.28.al
+  skip-cert-verify: false
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国03-1B
+  password: c62b6e9f-321d-4f1f-a045-0a895503e1a9
+  port: 21106
+  server: okanc.node-is.green
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国2-1B
+  password: a452cdb7-5ffd-4e05-b2bc-41ad444fddbd
+  port: 52516
+  server: hry200.2228333.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1K
+  password: b89a75c1-f1cb-4f7d-a8e7-31e383b0a902
+  port: 49061
+  server: us91.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国2-1P
+  password: f6907bb3-d778-4dfb-bc3c-8ba0e81f689c
+  port: 19201
+  server: dd02.b99.buzz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国 103-1B
+  password: 4ce56945-debc-4df0-9bc0-b228352c446b
+  port: 16012
+  server: uswest.nexifyspark.com
+  type: ss
+  udp: true
+- auth: cd6a2a83-07a5-4d83-b461-198751015bf8
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1C
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: cd6a2a83-07a5-4d83-b461-198751015bf8
+  port: 30001
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1C
+  password: c62b6e9f-321d-4f1f-a045-0a895503e1a9
+  port: 21105
+  server: okanc.node-is.green
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1H
+  password: c62b6e9f-321d-4f1f-a045-0a895503e1a9
+  port: 21104
+  server: okanc.node-is.green
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国东部-1C
+  password: a452cdb7-5ffd-4e05-b2bc-41ad444fddbd
+  port: 62525
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国4-1F
+  password: b89a75c1-f1cb-4f7d-a8e7-31e383b0a902
+  port: 49064
+  server: us94.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 VIP 美国2-1C
+  password: a17efb8b-0815-41dd-9daf-ca63d830facc
+  port: 47062
+  server: us02.jiasudu.buzz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 1号专线 美国US 205-1A
+  password: d99248bf-e13c-4490-9b8b-e74168f72b6d
+  port: 39312
+  server: 120.232.239.186
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1O
+  password: f6907bb3-d778-4dfb-bc3c-8ba0e81f689c
+  port: 49061
+  server: us91.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国2-1I
+  password: 7458fb72-a6ce-4ad3-9ff6-bf876dd7d5ad
+  port: 49062
+  server: us92.cctv14.xyz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 🇺🇸 V1 | 美国2-1F
-  password: 8baa8f51-d099-4866-ae6b-4278a68ac3e3
+  password: bc9ed2e8-de95-4b20-9045-8460f17a200c
   port: 19201
   server: dd02.b99.buzz
   type: ss
+  udp: true
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-1
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19842
+  server: us.719720.xyz
+  skip-cert-verify: false
+  sni: us.719720.xyz
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国2-1N
+  password: 0a751a30-d788-43eb-b5f8-83f3e9c386b4
+  port: 19201
+  server: dd02.b99.buzz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02专线-1B
+  password: 35e4934d-3af8-41b0-ba01-20fc076d4ef3
+  port: 16628
+  server: zf-ct.bgblwow.org
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1E
+  password: 405b961f-9071-4313-bad0-0c7568407282
+  port: 21104
+  server: okanc.node-is.green
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1H
+  password: b0dd2ac1-28f8-4fc8-9183-90c881c11fd2
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- name: 🇺🇸 2号专线 美国US 110-1A
+  password: d99248bf-e13c-4490-9b8b-e74168f72b6d
+  port: 33889
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.2-1C
+  port: 45053
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2d1a60d7-e08f-4e55-9000-8ed77e0da257
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-免费-1D
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 64efad22-ef71-43ec-964b-61ddee3610d5
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸 VIP 美国2-1F
+  password: 919b17e5-b4a7-491e-8089-6c0ae220e77c
+  port: 47062
+  server: us02.jiasudu.buzz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-002-1C
+  network: ws
+  port: 23068
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd6a2a83-07a5-4d83-b461-198751015bf8
+  ws-opts:
+    path: /
+- auth: ccad180c-7a90-4de4-8c23-f4e6d177d91c
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: ccad180c-7a90-4de4-8c23-f4e6d177d91c
+  port: 33061
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-002-1F
+  network: ws
+  port: 23068
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4c00d5f-99d2-439c-9983-5cbf6a4678d5
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1A
+  password: a1e04828-51a6-48f6-9376-18341f636737
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国3-1F
+  password: b89a75c1-f1cb-4f7d-a8e7-31e383b0a902
+  port: 49063
+  server: us93.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国六-1A
+  password: 3938c47d-2a5e-4e71-b76a-6726fdecc5b4
+  port: 30620
+  server: 006.kjahbg.info
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1D
+  password: 45f25c28-d9b4-4273-9abe-7b12ad024405
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02专线-1A
+  password: 1a1b4c32-1ef3-4381-85dd-7822b2dfe9af
+  port: 16628
+  server: zf-ct.bgblwow.org
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国东部-1K
+  password: 710b220a-9292-4086-8884-fdc6291aae61
+  port: 62525
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-德克萨斯州
+  port: 443
+  server: ourfast.asia
+  servername: ourfast.asia
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 8dec2d60-b62d-4701-af50-b1500959556a
+- auth: b3778019-8931-499e-931a-5e964b3b5de3
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1G
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: b3778019-8931-499e-931a-5e964b3b5de3
+  port: 30001
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- auth: bc8daf4b-dbb7-4e8c-a234-dd305a7384bb
+  name: 🇺🇸 美国-FREE-2-1E
+  obfs: salamander
+  obfs-password: AuYymMopA92M90v5
+  password: bc8daf4b-dbb7-4e8c-a234-dd305a7384bb
+  port: 28744
+  server: q3.28.al
+  skip-cert-verify: false
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国东部-1A
+  password: 7895265e-4491-436a-90ff-fe38beed5151
+  port: 62525
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 VIP 美国1-1F
+  password: 919b17e5-b4a7-491e-8089-6c0ae220e77c
+  port: 47061
+  server: us01.jiasudu.buzz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-002-1H
+  network: ws
+  port: 23068
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6312f8e-b58a-4c39-852a-7fc78af2c4f4
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国3-1B
+  password: 4bb2f9d2-7a72-420d-ab5a-8cd05e878aca
+  port: 49063
+  server: us93.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1E
+  password: 0549dd3c-e72c-44e1-98da-001123cdb553
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- name: 🇺🇸 美国-1J
+  password: d2f57131-d89b-4df6-b64b-69bef4da14a6
+  port: 658
+  server: 45.83.140.22
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-2
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19843
+  server: us4.426624.xyz
+  skip-cert-verify: false
+  sni: us4.426624.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国东部-1H
+  password: f2f79fd4-d3d5-4388-b45c-289b7466b47a
+  port: 62526
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- auth: e4c00d5f-99d2-439c-9983-5cbf6a4678d5
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1F
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: e4c00d5f-99d2-439c-9983-5cbf6a4678d5
+  port: 30001
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-高端1
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19842
+  server: usa1.731732.xyz
+  skip-cert-verify: false
+  sni: usa1.731732.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-002-1D
+  network: ws
+  port: 23068
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 104c7e70-0e1f-40fd-9028-7330153cfd22
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1A
+  password: 80e7a205-d8b3-40af-993b-02d95eebe429
+  port: 45532
+  server: gy.tangu.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1I
+  password: 35e4934d-3af8-41b0-ba01-20fc076d4ef3
+  port: 15532
+  server: gy.tangu.win
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国四-1B
+  password: 9df5ba16-cf4a-4b60-bb94-c19bc7acf3a3
+  port: 30618
+  server: 004.kjahbg.info
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国1-1D
+  password: f2f79fd4-d3d5-4388-b45c-289b7466b47a
+  port: 52515
+  server: hry100.2228333.xyz
+  type: ss
+  udp: true
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-高端2
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19842
+  server: usa2.731732.xyz
+  skip-cert-verify: false
+  sni: usa2.731732.xyz
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国一-1B
+  password: 9df5ba16-cf4a-4b60-bb94-c19bc7acf3a3
+  port: 30615
+  server: 001.kjahbg.info
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-001-1B
+  network: ws
+  port: 20009
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 17273348-85ee-417c-b2b0-9ecde4f80ee9
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国5-1F
+  password: b89a75c1-f1cb-4f7d-a8e7-31e383b0a902
+  port: 49065
+  server: us95.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 VIP 美国1-1C
+  password: a17efb8b-0815-41dd-9daf-ca63d830facc
+  port: 47061
+  server: us01.jiasudu.buzz
+  type: ss
+  udp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国-4837高端6
+  network: tcp
+  port: 19840
+  reality-opts:
+    public-key: UWXmGTLIW65nL_HXOCWYBHxDRVi0tIGyqZ2rquRiNEg
+    short-id: 99feb030
+  server: us11.731732.xyz
+  servername: www.ucr.edu
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-免费-1G
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 863df088-fc65-46c0-9f61-91aaa89262b4
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国1-1I
+  password: 7458fb72-a6ce-4ad3-9ff6-bf876dd7d5ad
+  port: 49061
+  server: us91.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 美国 105-1B
+  password: 4ce56945-debc-4df0-9bc0-b228352c446b
+  port: 16013
+  server: useast.nexifyspark.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 中转-1A
+  password: 25178ff7-d49c-4b7b-adb8-3b90303ee6e7
+  port: 17941
+  server: vip.baima360.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-001-1G
+  network: ws
+  port: 20009
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b3778019-8931-499e-931a-5e964b3b5de3
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 1号专线 美国US 205-1B
+  password: 635a987a-b1a4-4398-8aa1-f6c354b1c29c
+  port: 39312
+  server: 120.232.239.186
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 广港专线-美国04-1A
+  port: 35664
+  server: gzdx.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: be24feb3-23f3-45d6-ac37-a4b4746b7b61
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1D
+  password: 1a1b4c32-1ef3-4381-85dd-7822b2dfe9af
+  port: 15532
+  server: gy.tangu.win
+  type: ss
+  udp: true
+- auth: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  name: 🇺🇸 美国-4
+  password: 0304a792-bcc1-442a-a2ad-5f79e021e5d4
+  port: 19842
+  server: usgo2.731732.xyz
+  skip-cert-verify: false
+  sni: usgo2.731732.xyz
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国4-1D
+  password: 3d944b0e-91bd-4149-a0c3-f6da8eb1ea41
+  port: 49064
+  server: us94.cctv14.xyz
+  type: ss
+  udp: true
+- auth: b3778019-8931-499e-931a-5e964b3b5de3
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1G
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: b3778019-8931-499e-931a-5e964b3b5de3
+  port: 33061
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 V1 | 美国2-1B
+  password: 46ae3b4a-ae95-44ba-8412-26ec0ed15161
+  port: 19201
+  server: dd02.b99.buzz
+  type: ss
+  udp: true
+- auth: 56753e45-c449-4cfa-9f70-cf6b9192fc4b
+  name: 🇺🇸 美国-FREE-1-1D
+  obfs: salamander
+  obfs-password: AuYymMopA92M90v5
+  password: 56753e45-c449-4cfa-9f70-cf6b9192fc4b
+  port: 28744
+  server: q2.28.al
+  skip-cert-verify: false
+  type: hysteria2
   udp: true
