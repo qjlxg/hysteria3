@@ -1,0 +1,45 @@
+
+name: Filter 
+
+on:
+  schedule:
+    - cron: '0 */8 * * *'  # 每8小时执行一次
+  workflow_dispatch:
+
+jobs:
+  filter_and_deduplicate_and_commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # 使用GitHub提供的默认token进行checkout
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml requests
+
+      - name: Filter and deduplicate proxies
+        run: |
+          python filter_proxies.py  # 运行筛选和去重脚本
+
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+      - name: Commit and push changes if there are any
+        run: |
+          git add data1/aggregated_proxies.yaml  # 添加变更文件
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Updated "
+            git push  # 推送更改到GitHub
+          else
+            echo "No changes to commit"
+          fi
