@@ -38,7 +38,7 @@ def main():
 
     unique_nodes = deduplicate_nodes_by_name(all_filtered_nodes)
 
-    output_dir = 'data1'
+    output_dir = 'data'
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, 'aggregated_proxies.yaml')
     
