@@ -36,7 +36,7 @@ jobs:
 
       - name: Commit and push changes if there are any
         run: |
-          git add data1/aggregated_proxies.yaml  # 添加变更文件
+          git add data/aggregated_proxies.yaml  # 添加变更文件
           if ! git diff-index --quiet HEAD; then
             git commit -m "Updated "
             git push  # 推送更改到GitHub
