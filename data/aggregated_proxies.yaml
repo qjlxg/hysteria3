@@ -1,0 +1,205 @@
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1E
+  password: edb1d733-3ca7-4f0f-b62d-3315b6ca7c87
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1B
+  password: 1aaeb252-8021-4c1e-bfc0-6cdfb5ece318
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1A
+  password: 12785783-8dba-4252-8961-0f84b77b82af
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇺🇸 美国1高速中转-1A
+  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:ZTFmZjUzNTAtZWE1Yi00MDNmLThkZDktYTJjYmJjNDk=
+  port: 53334
+  server: gsgs.hy2.one
+  type: ss
+  udp: true
+- auth: 55237fb5-1d67-44c3-8766-6fa4129c8a61
+  name: 🇺🇸 北美-US-圣何塞-2-1A
+  password: 55237fb5-1d67-44c3-8766-6fa4129c8a61
+  port: 30001
+  server: oracle-amd-san-jose2.lanmaoyun.icu
+  skip-cert-verify: false
+  sni: san-jose2.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1E
+  password: edb1d733-3ca7-4f0f-b62d-3315b6ca7c87
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国中转 03
+  password: 7a401984-c6fd-4c16-b618-98ec49bd4933
+  port: 23631
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国-2-1A
+  network: tcp
+  port: 43332
+  reality-opts:
+    public-key: X0trg79L3teC4E6tlpzK74e38xpzkYIKAO2bvcsY6ng
+    short-id: 07288de2
+  server: us02.hy-2.top
+  servername: www.python.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e1ff5350-ea5b-403f-8dd9-a2cbbc491601
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1B
+  password: 1aaeb252-8021-4c1e-bfc0-6cdfb5ece318
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1D
+  password: 8337e59f-f3c3-4142-ae2e-24c3b0b587da
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇺🇸 美国2高速中转-1B
+  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:ZTEwZDRiODEtNjM1ZS00NDc0LTkxMDMtMGFlZmRmM2M=
+  port: 53333
+  server: gsgs.hy2.one
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1C
+  password: 55b0f948-cd75-40b7-b6a4-bd5dafe52ca0
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国-2-1B
+  network: tcp
+  port: 43332
+  reality-opts:
+    public-key: X0trg79L3teC4E6tlpzK74e38xpzkYIKAO2bvcsY6ng
+    short-id: 07288de2
+  server: us02.hy-2.top
+  servername: www.python.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e10d4b81-635e-4474-9103-0aefdf3cb644
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国中转 01
+  password: 7a401984-c6fd-4c16-b618-98ec49bd4933
+  port: 26858
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1D
+  password: 8337e59f-f3c3-4142-ae2e-24c3b0b587da
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国中转 02
+  password: 7a401984-c6fd-4c16-b618-98ec49bd4933
+  port: 15070
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇺🇸 美国2高速中转-1A
+  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:ZTFmZjUzNTAtZWE1Yi00MDNmLThkZDktYTJjYmJjNDk=
+  port: 53333
+  server: gsgs.hy2.one
+  type: ss
+  udp: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇺🇸 美国1高速中转-1B
+  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:ZTEwZDRiODEtNjM1ZS00NDc0LTkxMDMtMGFlZmRmM2M=
+  port: 53334
+  server: gsgs.hy2.one
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1A
+  password: 12785783-8dba-4252-8961-0f84b77b82af
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- auth: 491ebd6f-bf42-4851-b620-73833b3174cd
+  name: 🇺🇸 北美-US-圣何塞-2-1B
+  password: 491ebd6f-bf42-4851-b620-73833b3174cd
+  port: 30001
+  server: oracle-amd-san-jose2.lanmaoyun.icu
+  skip-cert-verify: false
+  sni: san-jose2.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1C
+  password: 55b0f948-cd75-40b7-b6a4-bd5dafe52ca0
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇺🇸 美国高速中转4-1B
+  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:ZTEwZDRiODEtNjM1ZS00NDc0LTkxMDMtMGFlZmRmM2M=
+  port: 63324
+  server: gsgs.hy2.one
+  type: ss
+  udp: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇺🇸 美国高速中转4-1A
+  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:ZTFmZjUzNTAtZWE1Yi00MDNmLThkZDktYTJjYmJjNDk=
+  port: 63324
+  server: gsgs.hy2.one
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2
+  password: 24b4c2d9-82e6-45df-85fd-9a350c691354
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- auth: 17db6fdd-47f8-4617-94ec-7e23275bfdce
+  name: 🇺🇸 北美-US-圣何塞-2
+  password: 17db6fdd-47f8-4617-94ec-7e23275bfdce
+  port: 30001
+  server: oracle-amd-san-jose2.lanmaoyun.icu
+  skip-cert-verify: false
+  sni: san-jose2.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01
+  password: 24b4c2d9-82e6-45df-85fd-9a350c691354
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
